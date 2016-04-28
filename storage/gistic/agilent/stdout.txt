@@ -1,0 +1,2608 @@
+[choose_run_matlab2.sh] DOTKIT  .matlab-2010a
+[choose_run_matlab2.sh] CMD     /xchip/tcga/gdac_prod/source/analysis_pipeline/scripts/run_matlab2.py /xchip/tcga/gdac_prod/applications/process_mgmt/firehose_task_registry/cga/Gistic2_Analysis/broadinstitute.org/cancer.genome.analysis/00264/129/ /xchip/tcga/gdac_prod/applications/process_mgmt/firehose_task_registry/cga/Gistic2_Analysis/broadinstitute.org/cancer.genome.analysis/00264/129/call_gistic2 . 4 /fh/subscription-VanAllen_Lab/tsvCat/Discovery_FFPE_Agilent/23228399/Discovery_FFPE_Agilent.aggregated_case_sample.seg /xchip/gistic/variables/whole_exome_agilent_1.1_refseq_plus_3_boosters.Homo_sapiens_assembly19.targets.markers.txt /xchip/gistic/variables/hg19/hg19_with_miR_20120227.mat /xchip/gistic/CNV/blood_normals/CNV.hg19_111204/CNV.hg19.bypos.111213.txt 0.3 0.3 2 0.5 1 0.99 10 1 10000 1 mean /xchip/tcga/gdac_prod/applications/process_mgmt/firehose_task_registry/cga/Gistic2_Analysis/broadinstitute.org/cancer.genome.analysis/00264/129/version.txt
+[run_matlab2.py] [command line] matlab_exe = /xchip/tcga/gdac_prod/applications/process_mgmt/firehose_task_registry/cga/Gistic2_Analysis/broadinstitute.org/cancer.genome.analysis/00264/129/call_gistic2
+[run_matlab2.py] [command line] matlab_args = ['.', '4', '/fh/subscription-VanAllen_Lab/tsvCat/Discovery_FFPE_Agilent/23228399/Discovery_FFPE_Agilent.aggregated_case_sample.seg', '/xchip/gistic/variables/whole_exome_agilent_1.1_refseq_plus_3_boosters.Homo_sapiens_assembly19.targets.markers.txt', '/xchip/gistic/variables/hg19/hg19_with_miR_20120227.mat', '/xchip/gistic/CNV/blood_normals/CNV.hg19_111204/CNV.hg19.bypos.111213.txt', '0.3', '0.3', '2', '0.5', '1', '0.99', '10', '1', '10000', '1', 'mean', '/xchip/tcga/gdac_prod/applications/process_mgmt/firehose_task_registry/cga/Gistic2_Analysis/broadinstitute.org/cancer.genome.analysis/00264/129/version.txt']
+[run_matlab2.py] [command line] with_display = False
+[run_matlab2.py] [command line] libdir = /xchip/tcga/gdac_prod/applications/process_mgmt/firehose_task_registry/cga/Gistic2_Analysis/broadinstitute.org/cancer.genome.analysis/00264/129/
+[run_matlab2.py] LD_LIBRARY_PATH = .:/broad/software/nonfree/Linux/redhat_5_x86_64/pkgs/matlab_2010a/runtime/glnxa64:/broad/software/nonfree/Linux/redhat_5_x86_64/pkgs/matlab_2010a/bin/glnxa64:/broad/software/nonfree/Linux/redhat_5_x86_64/pkgs/matlab_2010a/sys/os/glnxa64:/broad/software/nonfree/Linux/redhat_5_x86_64/pkgs/matlab_2010a/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/broad/software/nonfree/Linux/redhat_5_x86_64/pkgs/matlab_2010a/sys/java/jre/glnxa64/jre/lib/amd64/server:/broad/software/nonfree/Linux/redhat_5_x86_64/pkgs/matlab_2010a/sys/java/jre/glnxa64/jre/lib/amd64/client:/broad/software/nonfree/Linux/redhat_5_x86_64/pkgs/matlab_2010a/sys/java/jre/glnxa64/jre/lib/amd64
+[run_matlab2.py] MCR_CACHE_ROOT = /fh/subscription-VanAllen_Lab/Gistic2_Analysis/Discovery_FFPE_Agilent/23228449
+[run_matlab2.py] Matlab command = /xchip/tcga/gdac_prod/applications/process_mgmt/firehose_task_registry/cga/Gistic2_Analysis/broadinstitute.org/cancer.genome.analysis/00264/129/call_gistic2 . 4 /fh/subscription-VanAllen_Lab/tsvCat/Discovery_FFPE_Agilent/23228399/Discovery_FFPE_Agilent.aggregated_case_sample.seg /xchip/gistic/variables/whole_exome_agilent_1.1_refseq_plus_3_boosters.Homo_sapiens_assembly19.targets.markers.txt /xchip/gistic/variables/hg19/hg19_with_miR_20120227.mat /xchip/gistic/CNV/blood_normals/CNV.hg19_111204/CNV.hg19.bypos.111213.txt 0.3 0.3 2 0.5 1 0.99 10 1 10000 1 mean /xchip/tcga/gdac_prod/applications/process_mgmt/firehose_task_registry/cga/Gistic2_Analysis/broadinstitute.org/cancer.genome.analysis/00264/129/version.txt
+Warning: No display specified.  You will not be able to display graphics on the screen.
+Running GISTIC version 2.0.22
+
+fields = 
+
+    {1x1 cell}    {1x1 cell}
+
+
+cgaRevision =
+
+Firehose task version: 129
+
+
+inputInfoFilename =
+
+gisticInputs.txt
+
+
+fid =
+
+     3
+
+
+ans =
+
+     9
+
+
+ans =
+
+   137
+
+
+ans =
+
+   128
+
+
+ans =
+
+    73
+
+
+ans =
+
+    84
+
+
+ans =
+
+    28
+
+
+ans =
+
+    23
+
+
+ans =
+
+    13
+
+
+ans =
+
+    24
+
+
+ans =
+
+    22
+
+
+ans =
+
+    22
+
+
+ans =
+
+    21
+
+
+ans =
+
+    21
+
+
+ans =
+
+    30
+
+
+ans =
+
+    17
+
+
+ans =
+
+    26
+
+
+ans =
+
+     0
+
+...Matching fields to Array List File:
+      Array  --->  array
+
+conf_level =
+
+    0.9900
+
+
+params = 
+
+         array_list_file: 'array_list.txt'
+                cnv_file: {[1x73 char]}
+                   t_amp: 0.3000
+                   t_del: 0.3000
+             genepattern: 0
+       join_segment_size: 10
+                     ext: ''
+                remove_X: 1
+      run_broad_analysis: 1
+                   ziggs: [1x1 struct]
+        broad_len_cutoff: 0.5000
+               qv_thresh: 0.2500
+              conf_level: [0.9900 0.9900]
+                     cap: 2
+                   alpha: [2.5145 2.1653]
+          do_gene_gistic: 1
+         save_data_files: 1
+     conserve_disk_space: 0
+            use_segarray: 1
+        write_gene_files: 1
+           use_two_sided: 0
+          do_arbitration: 1
+              peak_types: ''
+           save_seg_data: 1
+             arm_peeloff: 1
+    gene_collapse_method: 'mean'
+
+Checking inputs...
+Making D struct
+Reading Markers File '/xchip/gistic/variables/whole_exome_agilent_1.1_refseq_plus_3_boosters.Homo_sapiens_assembly19.targets.markers.txt'
+Non-unique positions ... using first marker from each position
+Reading Seg File '/fh/subscription-VanAllen_Lab/tsvCat/Discovery_FFPE_Agilent/23228399/Discovery_FFPE_Agilent.aggregated_case_sample.seg'
+CL = 
+               sdesc: {17x1 cell}
+                chrn: [379788x1 double]
+                 pos: [379788x1 double]
+              marker: {379788x1 cell}
+                 chr: {1x379788 cell}
+    suppress_history: 1
+               islog: 1
+                isMB: 0
+                 dat: [379788x17 SegArray]
+
+Sub-selecting samples...
+...Matching fields to Array List File:
+      Array  --->  array
+Matched all 17 samples in array list file
+CL = 
+               sdesc: {17x1 cell}
+                chrn: [379788x1 double]
+                 pos: [379788x1 double]
+              marker: {379788x1 cell}
+                 chr: {1x379788 cell}
+    suppress_history: 1
+               islog: 1
+                isMB: 0
+                 dat: [379788x17 SegArray]
+
+Matrix size 379788      17
+Removing 47843 markers
+Removing NaN probes...
+Removing 30539 markers with NaNs
+Matrix size 301406      17
+Removing sex chromosomes...
+Merging small segments...
+currently not taking care of edge of chromosomes!!!
+Smoothing segments for sample 1:
+Smoothing segments for sample 2:
+Smoothing segments for sample 3:
+Smoothing segments for sample 4:
+Smoothing segments for sample 5:
+Smoothing segments for sample 6:
+Smoothing segments for sample 7:
+Smoothing segments for sample 8:
+Smoothing segments for sample 9:
+Smoothing segments for sample 10:
+Smoothing segments for sample 11:
+Smoothing segments for sample 12:
+Smoothing segments for sample 13:
+Smoothing segments for sample 14:
+Smoothing segments for sample 15:
+Smoothing segments for sample 16:
+Smoothing segments for sample 17:
+Median centering data...
+Saving segmented data file...
+Running focal analysis...
+Using supplied D...
+...Matching fields to Array List File:
+      Array  --->  array
+Subselecting 17 samples in data.
+Running focal GISTIC version 2.0.22
+params = 
+         array_list_file: 'array_list.txt'
+                cnv_file: {[1x73 char]}
+                   t_amp: 0.3000
+                   t_del: 0.3000
+             genepattern: 0
+       join_segment_size: 10
+                     ext: ''
+                remove_X: 1
+      run_broad_analysis: 1
+                   ziggs: [1x1 struct]
+        broad_len_cutoff: 0.5000
+               qv_thresh: 0.2500
+              conf_level: [0.9900 0.9900]
+                     cap: 2
+                   alpha: [2.5145 2.1653]
+          do_gene_gistic: 1
+         save_data_files: 1
+     conserve_disk_space: 0
+            use_segarray: 1
+        write_gene_files: 1
+           use_two_sided: 0
+          do_arbitration: 1
+              peak_types: ''
+           save_seg_data: 1
+             arm_peeloff: 1
+    gene_collapse_method: 'mean'
+                     res: 0.0029
+                   fname: ''
+           sample_center: 'median'
+            partial_hits: [1 0]
+                   islog: 1
+
+Removed 0 samples with more than 10000 segments
+Converting data from log to copy number space...
+Performing ziggurat deconstruction!
+Reconstructing focal genomes...
+Reconstructing genome: amp
+Reconstructing genome: aod
+Reconstructing genome: del
+Reconstructing genome: doa
+Saving results to: /fh/subscription-VanAllen_Lab/Gistic2_Analysis/Discovery_FFPE_Agilent/23228449/focal_dat.0.5.mat
+Scoring segments...
+Reconstructing genome: amp
+Reconstructing genome: del
+Scoring genomes...
+Reconstructing genome: amp
+Reconstructing genome: aod
+Reconstructing genome: del
+Reconstructing genome: doa
+Saving results to: /fh/subscription-VanAllen_Lab/Gistic2_Analysis/Discovery_FFPE_Agilent/23228449/scores.0.5.mat
+Performing background permutations...
+Amps...
+Conv:.................
+Dels...
+Conv:.................
+Performing gene gistic...
+Scoring gene deletions...
+...scored 1000 of 38015 genes
+...scored 2000 of 38015 genes
+...scored 3000 of 38015 genes
+...scored 4000 of 38015 genes
+...scored 5000 of 38015 genes
+...scored 6000 of 38015 genes
+...scored 7000 of 38015 genes
+...scored 8000 of 38015 genes
+...scored 9000 of 38015 genes
+...scored 10000 of 38015 genes
+...scored 11000 of 38015 genes
+...scored 12000 of 38015 genes
+...scored 13000 of 38015 genes
+...scored 14000 of 38015 genes
+...scored 15000 of 38015 genes
+...scored 16000 of 38015 genes
+...scored 17000 of 38015 genes
+...scored 18000 of 38015 genes
+...scored 19000 of 38015 genes
+...scored 20000 of 38015 genes
+...scored 21000 of 38015 genes
+...scored 22000 of 38015 genes
+...scored 23000 of 38015 genes
+...scored 24000 of 38015 genes
+...scored 25000 of 38015 genes
+...scored 26000 of 38015 genes
+...scored 27000 of 38015 genes
+...scored 28000 of 38015 genes
+...scored 29000 of 38015 genes
+...scored 30000 of 38015 genes
+...scored 31000 of 38015 genes
+...scored 32000 of 38015 genes
+...scored 33000 of 38015 genes
+...scored 34000 of 38015 genes
+...scored 35000 of 38015 genes
+...scored 36000 of 38015 genes
+...scored 37000 of 38015 genes
+...scored 38000 of 38015 genes
+Window size = 1 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 2 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 3 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 4 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 5 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 6 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 7 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 8 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 9 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 10 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 11 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 12 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 13 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 14 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 15 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 16 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 17 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 18 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 19 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 20 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 21 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 22 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 23 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 24 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 25 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 26 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 27 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 28 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 29 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 30 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 31 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 32 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 33 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 34 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 35 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 36 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 37 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 38 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 39 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 40 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 41 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 42 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 43 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 44 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 45 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 46 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 47 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 48 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 49 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 50 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 51 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 52 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 53 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 54 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 55 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 56 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 57 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 58 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 59 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 60 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 61 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 62 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 63 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 64 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 65 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 66 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 67 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 68 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 69 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 70 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 71 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 72 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 73 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 74 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 75 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 76 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 77 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 78 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 79 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 80 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 81 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 82 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 83 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 84 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 85 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 86 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 87 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 88 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 89 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 90 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 91 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 92 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 93 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 94 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 95 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 96 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 97 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 98 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 99 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 100 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 101 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 102 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 103 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 104 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 105 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 106 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 107 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 108 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 109 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 110 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 111 out of 660 (non-empty = 171)
+Window size = 112 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 113 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 114 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 115 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 116 out of 660 (non-empty = 171)
+Window size = 117 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 118 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 119 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 120 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 121 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 122 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 123 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 124 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 125 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 126 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 127 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 128 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 129 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 130 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 131 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 132 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 133 out of 660 (non-empty = 171)
+Window size = 134 out of 660 (non-empty = 171)
+Window size = 135 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 136 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 137 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 138 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 139 out of 660 (non-empty = 171)
+Window size = 140 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 141 out of 660 (non-empty = 171)
+Window size = 142 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 143 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 144 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 145 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 146 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 147 out of 660 (non-empty = 171)
+Window size = 148 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 149 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 150 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 151 out of 660 (non-empty = 171)
+Window size = 152 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 153 out of 660 (non-empty = 171)
+Window size = 154 out of 660 (non-empty = 171)
+Window size = 155 out of 660 (non-empty = 171)
+Window size = 156 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 157 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 158 out of 660 (non-empty = 171)
+Window size = 159 out of 660 (non-empty = 171)
+Window size = 160 out of 660 (non-empty = 171)
+Window size = 161 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 162 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 163 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 164 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 165 out of 660 (non-empty = 171)
+Window size = 166 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 167 out of 660 (non-empty = 171)
+Window size = 168 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 169 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 170 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 171 out of 660 (non-empty = 171)
+Window size = 172 out of 660 (non-empty = 171)
+Window size = 173 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 174 out of 660 (non-empty = 171)
+Window size = 175 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 176 out of 660 (non-empty = 171)
+Window size = 177 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 178 out of 660 (non-empty = 171)
+Window size = 179 out of 660 (non-empty = 171)
+Window size = 180 out of 660 (non-empty = 171)
+Window size = 181 out of 660 (non-empty = 171)
+Window size = 182 out of 660 (non-empty = 171)
+Window size = 183 out of 660 (non-empty = 171)
+Window size = 184 out of 660 (non-empty = 171)
+Window size = 185 out of 660 (non-empty = 171)
+Window size = 186 out of 660 (non-empty = 171)
+Window size = 187 out of 660 (non-empty = 171)
+Window size = 188 out of 660 (non-empty = 171)
+Window size = 189 out of 660 (non-empty = 171)
+Window size = 190 out of 660 (non-empty = 171)
+Window size = 191 out of 660 (non-empty = 171)
+Window size = 192 out of 660 (non-empty = 171)
+Window size = 193 out of 660 (non-empty = 171)
+Window size = 194 out of 660 (non-empty = 171)
+Window size = 195 out of 660 (non-empty = 171)
+Window size = 196 out of 660 (non-empty = 171)
+Window size = 197 out of 660 (non-empty = 171)
+Window size = 198 out of 660 (non-empty = 171)
+Window size = 199 out of 660 (non-empty = 171)
+Window size = 200 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 201 out of 660 (non-empty = 171)
+Window size = 202 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 203 out of 660 (non-empty = 171)
+Window size = 204 out of 660 (non-empty = 171)
+Window size = 205 out of 660 (non-empty = 171)
+Window size = 206 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 207 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 208 out of 660 (non-empty = 171)
+Window size = 209 out of 660 (non-empty = 171)
+Window size = 210 out of 660 (non-empty = 171)
+Window size = 211 out of 660 (non-empty = 171)
+Window size = 212 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 213 out of 660 (non-empty = 171)
+Window size = 214 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 215 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 216 out of 660 (non-empty = 171)
+Window size = 217 out of 660 (non-empty = 171)
+Window size = 218 out of 660 (non-empty = 171)
+Window size = 219 out of 660 (non-empty = 171)
+Window size = 220 out of 660 (non-empty = 171)
+Window size = 221 out of 660 (non-empty = 171)
+Window size = 222 out of 660 (non-empty = 171)
+Window size = 223 out of 660 (non-empty = 171)
+Window size = 224 out of 660 (non-empty = 171)
+Window size = 225 out of 660 (non-empty = 171)
+Window size = 226 out of 660 (non-empty = 171)
+Window size = 227 out of 660 (non-empty = 171)
+Window size = 228 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 229 out of 660 (non-empty = 171)
+Window size = 230 out of 660 (non-empty = 171)
+Window size = 231 out of 660 (non-empty = 171)
+Window size = 232 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 233 out of 660 (non-empty = 171)
+Window size = 234 out of 660 (non-empty = 171)
+Window size = 235 out of 660 (non-empty = 171)
+Window size = 236 out of 660 (non-empty = 171)
+Window size = 237 out of 660 (non-empty = 171)
+Window size = 238 out of 660 (non-empty = 171)
+Window size = 239 out of 660 (non-empty = 171)
+Window size = 240 out of 660 (non-empty = 171)
+Window size = 241 out of 660 (non-empty = 171)
+Window size = 242 out of 660 (non-empty = 171)
+Window size = 243 out of 660 (non-empty = 171)
+Window size = 244 out of 660 (non-empty = 171)
+Window size = 245 out of 660 (non-empty = 171)
+Window size = 246 out of 660 (non-empty = 171)
+Window size = 247 out of 660 (non-empty = 171)
+Window size = 248 out of 660 (non-empty = 171)
+Window size = 249 out of 660 (non-empty = 171)
+Window size = 250 out of 660 (non-empty = 171)
+Window size = 251 out of 660 (non-empty = 171)
+Window size = 252 out of 660 (non-empty = 171)
+Window size = 253 out of 660 (non-empty = 171)
+Window size = 254 out of 660 (non-empty = 171)
+Window size = 255 out of 660 (non-empty = 171)
+Window size = 256 out of 660 (non-empty = 171)
+Window size = 257 out of 660 (non-empty = 171)
+Window size = 258 out of 660 (non-empty = 171)
+Window size = 259 out of 660 (non-empty = 171)
+Window size = 260 out of 660 (non-empty = 171)
+Window size = 261 out of 660 (non-empty = 171)
+Window size = 262 out of 660 (non-empty = 171)
+Window size = 263 out of 660 (non-empty = 171)
+Window size = 264 out of 660 (non-empty = 171)
+Window size = 265 out of 660 (non-empty = 171)
+Window size = 266 out of 660 (non-empty = 171)
+Window size = 267 out of 660 (non-empty = 171)
+Window size = 268 out of 660 (non-empty = 171)
+Window size = 269 out of 660 (non-empty = 171)
+Window size = 270 out of 660 (non-empty = 171)
+Window size = 271 out of 660 (non-empty = 171)
+Window size = 272 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 273 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 274 out of 660 (non-empty = 171)
+Window size = 275 out of 660 (non-empty = 171)
+Window size = 276 out of 660 (non-empty = 171)
+Window size = 277 out of 660 (non-empty = 171)
+Window size = 278 out of 660 (non-empty = 171)
+Window size = 279 out of 660 (non-empty = 171)
+Window size = 280 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 281 out of 660 (non-empty = 171)
+Window size = 282 out of 660 (non-empty = 171)
+Window size = 283 out of 660 (non-empty = 171)
+Window size = 284 out of 660 (non-empty = 171)
+Window size = 285 out of 660 (non-empty = 171)
+Window size = 286 out of 660 (non-empty = 171)
+Window size = 287 out of 660 (non-empty = 171)
+Window size = 288 out of 660 (non-empty = 171)
+Window size = 289 out of 660 (non-empty = 171)
+Window size = 290 out of 660 (non-empty = 171)
+Window size = 291 out of 660 (non-empty = 171)
+Window size = 292 out of 660 (non-empty = 171)
+Window size = 293 out of 660 (non-empty = 171)
+Window size = 294 out of 660 (non-empty = 171)
+Window size = 295 out of 660 (non-empty = 171)
+Window size = 296 out of 660 (non-empty = 171)
+Window size = 297 out of 660 (non-empty = 171)
+Window size = 298 out of 660 (non-empty = 171)
+Window size = 299 out of 660 (non-empty = 171)
+Window size = 300 out of 660 (non-empty = 171)
+Window size = 301 out of 660 (non-empty = 171)
+Window size = 302 out of 660 (non-empty = 171)
+Window size = 303 out of 660 (non-empty = 171)
+Window size = 304 out of 660 (non-empty = 171)
+Window size = 305 out of 660 (non-empty = 171)
+Window size = 306 out of 660 (non-empty = 171)
+Window size = 307 out of 660 (non-empty = 171)
+Window size = 308 out of 660 (non-empty = 171)
+Window size = 309 out of 660 (non-empty = 171)
+Window size = 310 out of 660 (non-empty = 171)
+Window size = 311 out of 660 (non-empty = 171)
+Window size = 312 out of 660 (non-empty = 171)
+Window size = 313 out of 660 (non-empty = 171)
+Window size = 314 out of 660 (non-empty = 171)
+Window size = 315 out of 660 (non-empty = 171)
+Window size = 316 out of 660 (non-empty = 171)
+Window size = 317 out of 660 (non-empty = 171)
+Window size = 318 out of 660 (non-empty = 171)
+Window size = 319 out of 660 (non-empty = 171)
+Window size = 320 out of 660 (non-empty = 171)
+Window size = 321 out of 660 (non-empty = 171)
+Window size = 322 out of 660 (non-empty = 171)
+Window size = 323 out of 660 (non-empty = 171)
+Window size = 324 out of 660 (non-empty = 171)
+Window size = 325 out of 660 (non-empty = 171)
+Window size = 326 out of 660 (non-empty = 171)
+Window size = 327 out of 660 (non-empty = 171)
+Window size = 328 out of 660 (non-empty = 171)
+Window size = 329 out of 660 (non-empty = 171)
+Window size = 330 out of 660 (non-empty = 171)
+Window size = 331 out of 660 (non-empty = 171)
+Window size = 332 out of 660 (non-empty = 171)
+Window size = 333 out of 660 (non-empty = 171)
+Window size = 334 out of 660 (non-empty = 171)
+Window size = 335 out of 660 (non-empty = 171)
+Window size = 336 out of 660 (non-empty = 171)
+Window size = 337 out of 660 (non-empty = 171)
+Window size = 338 out of 660 (non-empty = 171)
+Window size = 339 out of 660 (non-empty = 171)
+Window size = 340 out of 660 (non-empty = 171)
+Window size = 341 out of 660 (non-empty = 171)
+Window size = 342 out of 660 (non-empty = 171)
+Window size = 343 out of 660 (non-empty = 171)
+Window size = 344 out of 660 (non-empty = 171)
+Window size = 345 out of 660 (non-empty = 171)
+Window size = 346 out of 660 (non-empty = 171)
+Window size = 347 out of 660 (non-empty = 171)
+Window size = 348 out of 660 (non-empty = 171)
+Window size = 349 out of 660 (non-empty = 171)
+Window size = 350 out of 660 (non-empty = 171)
+Window size = 351 out of 660 (non-empty = 171)
+Window size = 352 out of 660 (non-empty = 171)
+Window size = 353 out of 660 (non-empty = 171)
+Window size = 354 out of 660 (non-empty = 171)
+Window size = 355 out of 660 (non-empty = 171)
+Window size = 356 out of 660 (non-empty = 171)
+Window size = 357 out of 660 (non-empty = 171)
+Window size = 358 out of 660 (non-empty = 171)
+Window size = 359 out of 660 (non-empty = 171)
+Window size = 360 out of 660 (non-empty = 171)
+Window size = 361 out of 660 (non-empty = 171)
+Window size = 362 out of 660 (non-empty = 171)
+Window size = 363 out of 660 (non-empty = 171)
+Window size = 364 out of 660 (non-empty = 171)
+Window size = 365 out of 660 (non-empty = 171)
+Window size = 366 out of 660 (non-empty = 171)
+Window size = 367 out of 660 (non-empty = 171)
+Window size = 368 out of 660 (non-empty = 171)
+Window size = 369 out of 660 (non-empty = 171)
+Window size = 370 out of 660 (non-empty = 171)
+Window size = 371 out of 660 (non-empty = 171)
+Window size = 372 out of 660 (non-empty = 171)
+Window size = 373 out of 660 (non-empty = 171)
+Window size = 374 out of 660 (non-empty = 171)
+Window size = 375 out of 660 (non-empty = 171)
+Window size = 376 out of 660 (non-empty = 171)
+Window size = 377 out of 660 (non-empty = 171)
+Window size = 378 out of 660 (non-empty = 171)
+Window size = 379 out of 660 (non-empty = 171)
+Window size = 380 out of 660 (non-empty = 171)
+Window size = 381 out of 660 (non-empty = 171)
+Window size = 382 out of 660 (non-empty = 171)
+Window size = 383 out of 660 (non-empty = 171)
+Window size = 384 out of 660 (non-empty = 171)
+Window size = 385 out of 660 (non-empty = 171)
+Window size = 386 out of 660 (non-empty = 171)
+Window size = 387 out of 660 (non-empty = 171)
+Window size = 388 out of 660 (non-empty = 171)
+Window size = 389 out of 660 (non-empty = 171)
+Window size = 390 out of 660 (non-empty = 171)
+Window size = 391 out of 660 (non-empty = 171)
+Window size = 392 out of 660 (non-empty = 171)
+Window size = 393 out of 660 (non-empty = 171)
+Window size = 394 out of 660 (non-empty = 171)
+Window size = 395 out of 660 (non-empty = 171)
+Window size = 396 out of 660 (non-empty = 171)
+Window size = 397 out of 660 (non-empty = 171)
+Window size = 398 out of 660 (non-empty = 171)
+Window size = 399 out of 660 (non-empty = 171)
+Window size = 400 out of 660 (non-empty = 171)
+Window size = 401 out of 660 (non-empty = 171)
+Window size = 402 out of 660 (non-empty = 171)
+Window size = 403 out of 660 (non-empty = 171)
+Window size = 404 out of 660 (non-empty = 171)
+Window size = 405 out of 660 (non-empty = 171)
+Window size = 406 out of 660 (non-empty = 171)
+Window size = 407 out of 660 (non-empty = 171)
+Window size = 408 out of 660 (non-empty = 171)
+Window size = 409 out of 660 (non-empty = 171)
+Window size = 410 out of 660 (non-empty = 171)
+Window size = 411 out of 660 (non-empty = 171)
+Window size = 412 out of 660 (non-empty = 171)
+Window size = 413 out of 660 (non-empty = 171)
+Window size = 414 out of 660 (non-empty = 171)
+Window size = 415 out of 660 (non-empty = 171)
+Window size = 416 out of 660 (non-empty = 171)
+Window size = 417 out of 660 (non-empty = 171)
+Window size = 418 out of 660 (non-empty = 171)
+Window size = 419 out of 660 (non-empty = 171)
+Window size = 420 out of 660 (non-empty = 171)
+Window size = 421 out of 660 (non-empty = 171)
+Window size = 422 out of 660 (non-empty = 171)
+Window size = 423 out of 660 (non-empty = 171)
+Window size = 424 out of 660 (non-empty = 171)
+Window size = 425 out of 660 (non-empty = 171)
+Window size = 426 out of 660 (non-empty = 171)
+Window size = 427 out of 660 (non-empty = 171)
+Window size = 428 out of 660 (non-empty = 171)
+Window size = 429 out of 660 (non-empty = 171)
+Window size = 430 out of 660 (non-empty = 171)
+Window size = 431 out of 660 (non-empty = 171)
+Window size = 432 out of 660 (non-empty = 171)
+Window size = 433 out of 660 (non-empty = 171)
+Window size = 434 out of 660 (non-empty = 171)
+Window size = 435 out of 660 (non-empty = 171)
+Window size = 436 out of 660 (non-empty = 171)
+Window size = 437 out of 660 (non-empty = 171)
+Conv:.................
+Window size = 438 out of 660 (non-empty = 171)
+Window size = 439 out of 660 (non-empty = 171)
+Window size = 440 out of 660 (non-empty = 171)
+Window size = 441 out of 660 (non-empty = 171)
+Window size = 442 out of 660 (non-empty = 171)
+Window size = 443 out of 660 (non-empty = 171)
+Window size = 444 out of 660 (non-empty = 171)
+Window size = 445 out of 660 (non-empty = 171)
+Window size = 446 out of 660 (non-empty = 171)
+Window size = 447 out of 660 (non-empty = 171)
+Window size = 448 out of 660 (non-empty = 171)
+Window size = 449 out of 660 (non-empty = 171)
+Window size = 450 out of 660 (non-empty = 171)
+Window size = 451 out of 660 (non-empty = 171)
+Window size = 452 out of 660 (non-empty = 171)
+Window size = 453 out of 660 (non-empty = 171)
+Window size = 454 out of 660 (non-empty = 171)
+Window size = 455 out of 660 (non-empty = 171)
+Window size = 456 out of 660 (non-empty = 171)
+Window size = 457 out of 660 (non-empty = 171)
+Window size = 458 out of 660 (non-empty = 171)
+Window size = 459 out of 660 (non-empty = 171)
+Window size = 460 out of 660 (non-empty = 171)
+Window size = 461 out of 660 (non-empty = 171)
+Window size = 462 out of 660 (non-empty = 171)
+Window size = 463 out of 660 (non-empty = 171)
+Window size = 464 out of 660 (non-empty = 171)
+Window size = 465 out of 660 (non-empty = 171)
+Window size = 466 out of 660 (non-empty = 171)
+Window size = 467 out of 660 (non-empty = 171)
+Window size = 468 out of 660 (non-empty = 171)
+Window size = 469 out of 660 (non-empty = 171)
+Window size = 470 out of 660 (non-empty = 171)
+Window size = 471 out of 660 (non-empty = 171)
+Window size = 472 out of 660 (non-empty = 171)
+Window size = 473 out of 660 (non-empty = 171)
+Window size = 474 out of 660 (non-empty = 171)
+Window size = 475 out of 660 (non-empty = 171)
+Window size = 476 out of 660 (non-empty = 171)
+Window size = 477 out of 660 (non-empty = 171)
+Window size = 478 out of 660 (non-empty = 171)
+Window size = 479 out of 660 (non-empty = 171)
+Window size = 480 out of 660 (non-empty = 171)
+Window size = 481 out of 660 (non-empty = 171)
+Window size = 482 out of 660 (non-empty = 171)
+Window size = 483 out of 660 (non-empty = 171)
+Window size = 484 out of 660 (non-empty = 171)
+Window size = 485 out of 660 (non-empty = 171)
+Window size = 486 out of 660 (non-empty = 171)
+Window size = 487 out of 660 (non-empty = 171)
+Window size = 488 out of 660 (non-empty = 171)
+Window size = 489 out of 660 (non-empty = 171)
+Window size = 490 out of 660 (non-empty = 171)
+Window size = 491 out of 660 (non-empty = 171)
+Window size = 492 out of 660 (non-empty = 171)
+Window size = 493 out of 660 (non-empty = 171)
+Window size = 494 out of 660 (non-empty = 171)
+Window size = 495 out of 660 (non-empty = 171)
+Window size = 496 out of 660 (non-empty = 171)
+Window size = 497 out of 660 (non-empty = 171)
+Window size = 498 out of 660 (non-empty = 171)
+Window size = 499 out of 660 (non-empty = 171)
+Window size = 500 out of 660 (non-empty = 171)
+Window size = 501 out of 660 (non-empty = 171)
+Window size = 502 out of 660 (non-empty = 171)
+Window size = 503 out of 660 (non-empty = 171)
+Window size = 504 out of 660 (non-empty = 171)
+Window size = 505 out of 660 (non-empty = 171)
+Window size = 506 out of 660 (non-empty = 171)
+Window size = 507 out of 660 (non-empty = 171)
+Window size = 508 out of 660 (non-empty = 171)
+Window size = 509 out of 660 (non-empty = 171)
+Window size = 510 out of 660 (non-empty = 171)
+Window size = 511 out of 660 (non-empty = 171)
+Window size = 512 out of 660 (non-empty = 171)
+Window size = 513 out of 660 (non-empty = 171)
+Window size = 514 out of 660 (non-empty = 171)
+Window size = 515 out of 660 (non-empty = 171)
+Window size = 516 out of 660 (non-empty = 171)
+Window size = 517 out of 660 (non-empty = 171)
+Window size = 518 out of 660 (non-empty = 171)
+Window size = 519 out of 660 (non-empty = 171)
+Window size = 520 out of 660 (non-empty = 171)
+Window size = 521 out of 660 (non-empty = 171)
+Window size = 522 out of 660 (non-empty = 171)
+Window size = 523 out of 660 (non-empty = 171)
+Window size = 524 out of 660 (non-empty = 171)
+Window size = 525 out of 660 (non-empty = 171)
+Window size = 526 out of 660 (non-empty = 171)
+Window size = 527 out of 660 (non-empty = 171)
+Window size = 528 out of 660 (non-empty = 171)
+Window size = 529 out of 660 (non-empty = 171)
+Window size = 530 out of 660 (non-empty = 171)
+Window size = 531 out of 660 (non-empty = 171)
+Window size = 532 out of 660 (non-empty = 171)
+Window size = 533 out of 660 (non-empty = 171)
+Window size = 534 out of 660 (non-empty = 171)
+Window size = 535 out of 660 (non-empty = 171)
+Window size = 536 out of 660 (non-empty = 171)
+Window size = 537 out of 660 (non-empty = 171)
+Window size = 538 out of 660 (non-empty = 171)
+Window size = 539 out of 660 (non-empty = 171)
+Window size = 540 out of 660 (non-empty = 171)
+Window size = 541 out of 660 (non-empty = 171)
+Window size = 542 out of 660 (non-empty = 171)
+Window size = 543 out of 660 (non-empty = 171)
+Window size = 544 out of 660 (non-empty = 171)
+Window size = 545 out of 660 (non-empty = 171)
+Window size = 546 out of 660 (non-empty = 171)
+Window size = 547 out of 660 (non-empty = 171)
+Window size = 548 out of 660 (non-empty = 171)
+Window size = 549 out of 660 (non-empty = 171)
+Window size = 550 out of 660 (non-empty = 171)
+Window size = 551 out of 660 (non-empty = 171)
+Window size = 552 out of 660 (non-empty = 171)
+Window size = 553 out of 660 (non-empty = 171)
+Window size = 554 out of 660 (non-empty = 171)
+Window size = 555 out of 660 (non-empty = 171)
+Window size = 556 out of 660 (non-empty = 171)
+Window size = 557 out of 660 (non-empty = 171)
+Window size = 558 out of 660 (non-empty = 171)
+Window size = 559 out of 660 (non-empty = 171)
+Window size = 560 out of 660 (non-empty = 171)
+Window size = 561 out of 660 (non-empty = 171)
+Window size = 562 out of 660 (non-empty = 171)
+Window size = 563 out of 660 (non-empty = 171)
+Window size = 564 out of 660 (non-empty = 171)
+Window size = 565 out of 660 (non-empty = 171)
+Window size = 566 out of 660 (non-empty = 171)
+Window size = 567 out of 660 (non-empty = 171)
+Window size = 568 out of 660 (non-empty = 171)
+Window size = 569 out of 660 (non-empty = 171)
+Window size = 570 out of 660 (non-empty = 171)
+Window size = 571 out of 660 (non-empty = 171)
+Window size = 572 out of 660 (non-empty = 171)
+Window size = 573 out of 660 (non-empty = 171)
+Window size = 574 out of 660 (non-empty = 171)
+Window size = 575 out of 660 (non-empty = 171)
+Window size = 576 out of 660 (non-empty = 171)
+Window size = 577 out of 660 (non-empty = 171)
+Window size = 578 out of 660 (non-empty = 171)
+Window size = 579 out of 660 (non-empty = 171)
+Window size = 580 out of 660 (non-empty = 171)
+Window size = 581 out of 660 (non-empty = 171)
+Window size = 582 out of 660 (non-empty = 171)
+Window size = 583 out of 660 (non-empty = 171)
+Window size = 584 out of 660 (non-empty = 171)
+Window size = 585 out of 660 (non-empty = 171)
+Window size = 586 out of 660 (non-empty = 171)
+Window size = 587 out of 660 (non-empty = 171)
+Window size = 588 out of 660 (non-empty = 171)
+Window size = 589 out of 660 (non-empty = 171)
+Window size = 590 out of 660 (non-empty = 171)
+Window size = 591 out of 660 (non-empty = 171)
+Window size = 592 out of 660 (non-empty = 171)
+Window size = 593 out of 660 (non-empty = 171)
+Window size = 594 out of 660 (non-empty = 171)
+Window size = 595 out of 660 (non-empty = 171)
+Window size = 596 out of 660 (non-empty = 171)
+Window size = 597 out of 660 (non-empty = 171)
+Window size = 598 out of 660 (non-empty = 171)
+Window size = 599 out of 660 (non-empty = 171)
+Window size = 600 out of 660 (non-empty = 171)
+Window size = 601 out of 660 (non-empty = 171)
+Window size = 602 out of 660 (non-empty = 171)
+Window size = 603 out of 660 (non-empty = 171)
+Window size = 604 out of 660 (non-empty = 171)
+Window size = 605 out of 660 (non-empty = 171)
+Window size = 606 out of 660 (non-empty = 171)
+Window size = 607 out of 660 (non-empty = 171)
+Window size = 608 out of 660 (non-empty = 171)
+Window size = 609 out of 660 (non-empty = 171)
+Window size = 610 out of 660 (non-empty = 171)
+Window size = 611 out of 660 (non-empty = 171)
+Window size = 612 out of 660 (non-empty = 171)
+Window size = 613 out of 660 (non-empty = 171)
+Window size = 614 out of 660 (non-empty = 171)
+Window size = 615 out of 660 (non-empty = 171)
+Window size = 616 out of 660 (non-empty = 171)
+Window size = 617 out of 660 (non-empty = 171)
+Window size = 618 out of 660 (non-empty = 171)
+Window size = 619 out of 660 (non-empty = 171)
+Window size = 620 out of 660 (non-empty = 171)
+Window size = 621 out of 660 (non-empty = 171)
+Window size = 622 out of 660 (non-empty = 171)
+Window size = 623 out of 660 (non-empty = 171)
+Window size = 624 out of 660 (non-empty = 171)
+Window size = 625 out of 660 (non-empty = 171)
+Window size = 626 out of 660 (non-empty = 171)
+Window size = 627 out of 660 (non-empty = 171)
+Window size = 628 out of 660 (non-empty = 171)
+Window size = 629 out of 660 (non-empty = 171)
+Window size = 630 out of 660 (non-empty = 171)
+Window size = 631 out of 660 (non-empty = 171)
+Window size = 632 out of 660 (non-empty = 171)
+Window size = 633 out of 660 (non-empty = 171)
+Window size = 634 out of 660 (non-empty = 171)
+Window size = 635 out of 660 (non-empty = 171)
+Window size = 636 out of 660 (non-empty = 171)
+Window size = 637 out of 660 (non-empty = 171)
+Window size = 638 out of 660 (non-empty = 171)
+Window size = 639 out of 660 (non-empty = 171)
+Window size = 640 out of 660 (non-empty = 171)
+Window size = 641 out of 660 (non-empty = 171)
+Window size = 642 out of 660 (non-empty = 171)
+Window size = 643 out of 660 (non-empty = 171)
+Window size = 644 out of 660 (non-empty = 171)
+Window size = 645 out of 660 (non-empty = 171)
+Window size = 646 out of 660 (non-empty = 171)
+Window size = 647 out of 660 (non-empty = 171)
+Window size = 648 out of 660 (non-empty = 171)
+Window size = 649 out of 660 (non-empty = 171)
+Window size = 650 out of 660 (non-empty = 171)
+Window size = 651 out of 660 (non-empty = 171)
+Window size = 652 out of 660 (non-empty = 171)
+Window size = 653 out of 660 (non-empty = 171)
+Window size = 654 out of 660 (non-empty = 171)
+Window size = 655 out of 660 (non-empty = 171)
+Window size = 656 out of 660 (non-empty = 171)
+Window size = 657 out of 660 (non-empty = 171)
+Window size = 658 out of 660 (non-empty = 171)
+Window size = 659 out of 660 (non-empty = 171)
+Window size = 660 out of 660 (non-empty = 171)
+Conv:.................
+Saving stats...
+Running arbitrated peel-off...
+Finding peaks on chromosome 1
+Removing 100 segments from data
+Removing 35 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Amplification peak at chr1:152857251-153005093(18363:18373)
+q-value = 0.012438 & residual q-value = 0.012438
+Finding peaks on chromosome 2
+Removing 37 segments from data
+Removing 4 segments from data
+Removing 83 segments from data
+Removing 30 segments from data
+Resolving conflicts...
+Computing background score...
+Computing score for peak 1 of 3 on chromosome
+Amplification peak at chr2:31606020-31626012(34947:34963)
+q-value = 0.032239 & residual q-value = 0.032239
+Computing score for peak 2 of 3 on chromosome
+Amplification peak at chr2:42508115-42528534(35802:35816)
+q-value = 0.10301 & residual q-value = 0.10301
+Computing score for peak 3 of 3 on chromosome
+Amplification peak at chr2:95942097-95945747(40101:40115)
+q-value = 0.20586 & residual q-value = 0.20586
+Finding peaks on chromosome 3
+Removing 86 segments from data
+Removing 17 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Amplification peak at chr3:189586507-189612293(74526:74540)
+q-value = 1.218e-07 & residual q-value = 1.218e-07
+Finding peaks on chromosome 4
+Removing 46 segments from data
+Removing 4 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Amplification peak at chr4:100336523-100349789(82403:82415)
+q-value = 0.22636 & residual q-value = 0.22636
+Finding peaks on chromosome 5
+Computing background score...
+Finding peaks on chromosome 6
+Computing background score...
+Finding peaks on chromosome 7
+Computing background score...
+Finding peaks on chromosome 8
+Computing background score...
+Finding peaks on chromosome 9
+Computing background score...
+Finding peaks on chromosome 10
+Computing background score...
+Finding peaks on chromosome 11
+Removing 29 segments from data
+Removing 11 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Amplification peak at chr11:69972301-70007839(179568:179582)
+q-value = 0.0071075 & residual q-value = 0.0071075
+Finding peaks on chromosome 12
+Removing 3 segments from data
+Removing 88 segments from data
+Removing 14 segments from data
+Computing background score...
+Computing score for peak 1 of 2 on chromosome
+Amplification peak at chr12:25347998-25380348(190234:190245)
+q-value = 0.0021045 & residual q-value = 0.0021045
+Computing score for peak 2 of 2 on chromosome
+Amplification peak at chr12:52910643-52914082(193600:193612)
+q-value = 0.0071075 & residual q-value = 0.0071075
+Finding peaks on chromosome 13
+Computing background score...
+Finding peaks on chromosome 14
+Computing background score...
+Finding peaks on chromosome 15
+Computing background score...
+Finding peaks on chromosome 16
+Computing background score...
+Finding peaks on chromosome 17
+Removing 70 segments from data
+Removing 27 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Amplification peak at chr17:39776812-39779286(253123:253132)
+q-value = 0.027738 & residual q-value = 0.027738
+Finding peaks on chromosome 18
+Removing 45 segments from data
+Removing 6 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Amplification peak at chr18:61307012-61328452(266628:266648)
+q-value = 2.1078e-05 & residual q-value = 2.1078e-05
+Finding peaks on chromosome 19
+Computing background score...
+Finding peaks on chromosome 20
+Removing 29 segments from data
+Removing 18 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Amplification peak at chr20:55208627-55213071(292206:292212)
+q-value = 0.13082 & residual q-value = 0.13082
+Finding peaks on chromosome 21
+Computing background score...
+Finding peaks on chromosome 22
+Computing background score...
+Finding peaks on chromosome 1
+Removing 8 segments from data
+Updating gene gistic scores for 859 genes
+Removing 8 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Updating gene gistic scores for 4076 genes
+Deletion peak at genes: CA6
+q-value = 0.11414 & residual q-value = 0.11414
+Finding peaks on chromosome 2
+Removing 22 segments from data
+Updating gene gistic scores for 762 genes
+Removing 2 segments from data
+Updating gene gistic scores for 11 genes
+Removing 7 segments from data
+Updating gene gistic scores for 52 genes
+Removing 3 segments from data
+Resolving conflicts...
+Updating gene gistic scores for 728 genes
+Updating gene gistic scores for 373 genes
+Removing 2 segments from data
+Resolving conflicts...
+Updating gene gistic scores for 728 genes
+Computing background score...
+Computing score for peak 1 of 4 on chromosome
+Updating gene gistic scores for 2480 genes
+Deletion peak at genes: C2orf80
+q-value = 0.012292 & residual q-value = 0.01267
+Computing score for peak 2 of 4 on chromosome
+Updating gene gistic scores for 2480 genes
+Deletion peak at genes: CHAC2
+q-value = 0.1385 & residual q-value = 0.15004
+Computing score for peak 3 of 4 on chromosome
+Updating gene gistic scores for 2480 genes
+Deletion peak at genes: LOC100128590
+q-value = 0.24649 & residual q-value = 0.24649
+Computing score for peak 4 of 4 on chromosome
+Updating gene gistic scores for 2480 genes
+Deletion peak at genes: ALPP
+q-value = 0.09075 & residual q-value = 0.24754
+Finding peaks on chromosome 3
+Removing 1 segments from data
+Updating gene gistic scores for 8 genes
+Removing 3 segments from data
+Updating gene gistic scores for 8 genes
+Removing 6 segments from data
+Updating gene gistic scores for 182 genes
+Removing 4 segments from data
+Updating gene gistic scores for 15 genes
+Removing 2 segments from data
+Computing background score...
+Computing score for peak 1 of 4 on chromosome
+Updating gene gistic scores for 2201 genes
+Deletion peak at genes: GADL1
+q-value = 0.11414 & residual q-value = 0.11414
+Computing score for peak 2 of 4 on chromosome
+Updating gene gistic scores for 2201 genes
+Deletion peak at genes: SLC6A20
+q-value = 0.18135 & residual q-value = 0.19147
+Computing score for peak 3 of 4 on chromosome
+Updating gene gistic scores for 2201 genes
+Deletion peak at genes: ADAMTS9-AS2
+q-value = 0.20088 & residual q-value = 0.20544
+Computing score for peak 4 of 4 on chromosome
+Updating gene gistic scores for 2201 genes
+Deletion peak at genes: BCHE
+q-value = 0.24754 & residual q-value = 0.24754
+Finding peaks on chromosome 4
+Computing background score...
+Finding peaks on chromosome 5
+Removing 10 segments from data
+Updating gene gistic scores for 300 genes
+Removing 1 segments from data
+Updating gene gistic scores for 2 genes
+Removing 1 segments from data
+Resolving conflicts...
+Updating gene gistic scores for 190 genes
+Updating gene gistic scores for 2 genes
+Removing 2 segments from data
+Computing background score...
+Computing score for peak 1 of 3 on chromosome
+Updating gene gistic scores for 1697 genes
+Deletion peak at genes: ZNF346
+q-value = 0.012292 & residual q-value = 0.01267
+Computing score for peak 2 of 3 on chromosome
+Updating gene gistic scores for 1697 genes
+Deletion peak at genes: FAM105A
+q-value = 0.22976 & residual q-value = 0.24649
+Computing score for peak 3 of 3 on chromosome
+Updating gene gistic scores for 1697 genes
+Deletion peak at genes: CDHR2
+q-value = 0.068328 & residual q-value = 0.20544
+Finding peaks on chromosome 6
+Computing background score...
+Finding peaks on chromosome 7
+Removing 5 segments from data
+Updating gene gistic scores for 24 genes
+Removing 9 segments from data
+Updating gene gistic scores for 389 genes
+Removing 3 segments from data
+Resolving conflicts...
+Updating gene gistic scores for 379 genes
+Updating gene gistic scores for 64 genes
+Removing 1 segments from data
+Computing background score...
+Computing score for peak 1 of 3 on chromosome
+Updating gene gistic scores for 1918 genes
+Deletion peak at genes: KCNH2
+q-value = 0.025916 & residual q-value = 0.01747
+Computing score for peak 2 of 3 on chromosome
+Updating gene gistic scores for 1918 genes
+Deletion peak at genes: ASB4
+q-value = 0.038738 & residual q-value = 0.044427
+Computing score for peak 3 of 3 on chromosome
+Updating gene gistic scores for 1918 genes
+Deletion peak at genes: PMS2P5
+q-value = 0.12512 & residual q-value = 0.24754
+Finding peaks on chromosome 8
+Computing background score...
+Finding peaks on chromosome 9
+Computing background score...
+Finding peaks on chromosome 10
+Removing 3 segments from data
+Updating gene gistic scores for 663 genes
+Removing 2 segments from data
+Updating gene gistic scores for 16 genes
+Removing 5 segments from data
+Resolving conflicts...
+Updating gene gistic scores for 679 genes
+Updating gene gistic scores for 35 genes
+Removing 0 segments from data
+Resolving conflicts...
+Updating gene gistic scores for 705 genes
+Computing background score...
+Computing score for peak 1 of 3 on chromosome
+Updating gene gistic scores for 1677 genes
+Deletion peak at genes: hsa-mir-607
+q-value = 0.11414 & residual q-value = 1
+Computing score for peak 2 of 3 on chromosome
+Updating gene gistic scores for 1677 genes
+Deletion peak at genes: LOC439950
+q-value = 0.22976 & residual q-value = 1
+Computing score for peak 3 of 3 on chromosome
+Updating gene gistic scores for 1677 genes
+Deletion peak at genes: hsa-mir-607
+q-value = 0.11414 & residual q-value = 0.11414
+Finding peaks on chromosome 11
+Removing 3 segments from data
+Updating gene gistic scores for 679 genes
+Removing 4 segments from data
+Resolving conflicts...
+Updating gene gistic scores for 679 genes
+Updating gene gistic scores for 136 genes
+Removing 3 segments from data
+Resolving conflicts...
+Updating gene gistic scores for 679 genes
+Computing background score...
+Computing score for peak 1 of 2 on chromosome
+Updating gene gistic scores for 2377 genes
+Deletion peak at genes: C11orf61
+q-value = 0.035958 & residual q-value = 0.11395
+Computing score for peak 2 of 2 on chromosome
+Updating gene gistic scores for 2377 genes
+Deletion peak at genes: BTG4
+q-value = 0.11414 & residual q-value = 0.12512
+Finding peaks on chromosome 12
+Removing 13 segments from data
+Updating gene gistic scores for 107 genes
+Removing 3 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Updating gene gistic scores for 2022 genes
+Deletion peak at genes: PTPRR
+q-value = 0.059945 & residual q-value = 0.044427
+Finding peaks on chromosome 13
+Removing 2 segments from data
+Updating gene gistic scores for 463 genes
+Removing 2 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Updating gene gistic scores for 654 genes
+Deletion peak at genes: CCDC169
+q-value = 0.24754 & residual q-value = 0.24754
+Finding peaks on chromosome 14
+Removing 10 segments from data
+Updating gene gistic scores for 917 genes
+Removing 2 segments from data
+Resolving conflicts...
+Updating gene gistic scores for 883 genes
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Updating gene gistic scores for 1341 genes
+Deletion peak at genes: GLRX5
+q-value = 0.15369 & residual q-value = 0.15946
+Finding peaks on chromosome 15
+Computing background score...
+Finding peaks on chromosome 16
+Computing background score...
+Finding peaks on chromosome 17
+Computing background score...
+Finding peaks on chromosome 18
+Removing 5 segments from data
+Updating gene gistic scores for 233 genes
+Removing 1 segments from data
+Computing background score...
+Computing score for peak 1 of 1 on chromosome
+Updating gene gistic scores for 589 genes
+Deletion peak at genes: BOD1P
+q-value = 0.22976 & residual q-value = 0.24649
+Finding peaks on chromosome 19
+Computing background score...
+Finding peaks on chromosome 20
+Computing background score...
+Finding peaks on chromosome 21
+Computing background score...
+Finding peaks on chromosome 22
+Computing background score...
+Saving peak regions...
+Computing permuted score distributions...
+Performing permutation 1 of 25
+Performing permutation 2 of 25
+Performing permutation 3 of 25
+Performing permutation 4 of 25
+Performing permutation 5 of 25
+Performing permutation 6 of 25
+Performing permutation 7 of 25
+Performing permutation 8 of 25
+Performing permutation 9 of 25
+Performing permutation 10 of 25
+Performing permutation 11 of 25
+Performing permutation 12 of 25
+Performing permutation 13 of 25
+Performing permutation 14 of 25
+Performing permutation 15 of 25
+Performing permutation 16 of 25
+Performing permutation 17 of 25
+Performing permutation 18 of 25
+Performing permutation 19 of 25
+Performing permutation 20 of 25
+Performing permutation 21 of 25
+Performing permutation 22 of 25
+Performing permutation 23 of 25
+Performing permutation 24 of 25
+Performing permutation 25 of 25
+Performing permutation 1 of 25
+Performing permutation 2 of 25
+Performing permutation 3 of 25
+Performing permutation 4 of 25
+Performing permutation 5 of 25
+Performing permutation 6 of 25
+Performing permutation 7 of 25
+Performing permutation 8 of 25
+Performing permutation 9 of 25
+Performing permutation 10 of 25
+Performing permutation 11 of 25
+Performing permutation 12 of 25
+Performing permutation 13 of 25
+Performing permutation 14 of 25
+Performing permutation 15 of 25
+Performing permutation 16 of 25
+Performing permutation 17 of 25
+Performing permutation 18 of 25
+Performing permutation 19 of 25
+Performing permutation 20 of 25
+Performing permutation 21 of 25
+Performing permutation 22 of 25
+Performing permutation 23 of 25
+Performing permutation 24 of 25
+Performing permutation 25 of 25
+Saving permuted score files...
+Computing wide peak regions...
+Running Regbounder at confidence level: 99%
+     1
+
+Calculating on permutation 1 of 25
+Calculating on permutation 2 of 25
+Calculating on permutation 3 of 25
+Calculating on permutation 4 of 25
+Calculating on permutation 5 of 25
+Calculating on permutation 6 of 25
+Calculating on permutation 7 of 25
+Calculating on permutation 8 of 25
+Calculating on permutation 9 of 25
+Calculating on permutation 10 of 25
+Calculating on permutation 11 of 25
+Calculating on permutation 12 of 25
+Calculating on permutation 13 of 25
+Calculating on permutation 14 of 25
+Calculating on permutation 15 of 25
+Calculating on permutation 16 of 25
+Calculating on permutation 17 of 25
+Calculating on permutation 18 of 25
+Calculating on permutation 19 of 25
+Calculating on permutation 20 of 25
+Calculating on permutation 21 of 25
+Calculating on permutation 22 of 25
+Calculating on permutation 23 of 25
+Calculating on permutation 24 of 25
+Calculating on permutation 25 of 25
+     2
+
+Calculating on permutation 1 of 25
+Calculating on permutation 2 of 25
+Calculating on permutation 3 of 25
+Calculating on permutation 4 of 25
+Calculating on permutation 5 of 25
+Calculating on permutation 6 of 25
+Calculating on permutation 7 of 25
+Calculating on permutation 8 of 25
+Calculating on permutation 9 of 25
+Calculating on permutation 10 of 25
+Calculating on permutation 11 of 25
+Calculating on permutation 12 of 25
+Calculating on permutation 13 of 25
+Calculating on permutation 14 of 25
+Calculating on permutation 15 of 25
+Calculating on permutation 16 of 25
+Calculating on permutation 17 of 25
+Calculating on permutation 18 of 25
+Calculating on permutation 19 of 25
+Calculating on permutation 20 of 25
+Calculating on permutation 21 of 25
+Calculating on permutation 22 of 25
+Calculating on permutation 23 of 25
+Calculating on permutation 24 of 25
+Calculating on permutation 25 of 25
+Amplification wide peak at chr1:152800283-153029213(18362:18375)
+Amplification wide peak at chr2:31600105-31637534(34945:34965)
+Amplification wide peak at chr2:42488436-42530371(35801:35817)
+Amplification wide peak at chr2:95940579-95947766(40099:40117)
+Amplification wide peak at chr3:189584588-189675795(74525:74541)
+Amplification wide peak at chr4:100264212-100434367(82401:82416)
+Amplification wide peak at chr11:69631193-70506059(179565:179700)
+Amplification wide peak at chr12:25314133-25671903(190233:190246)
+Amplification wide peak at chr12:52886974-52938529(193598:193613)
+Amplification wide peak at chr17:39768942-39846195(253121:253134)
+Amplification wide peak at chr18:61305359-61387247(266626:266649)
+Amplification wide peak at chr20:55206914-55758977(292205:292216)
+Smoothing score...
+Deletion wide peak at chr1:3566493-11596745(148:1597)
+Smoothing score...
+Deletion wide peak at chr2:204737429-215674295(50712:51513)
+Smoothing score...
+Deletion wide peak at chr2:50858237-54176322(36695:36833)
+Smoothing score...
+Deletion wide peak at chr2:669578-242447452(31801:55757)
+Smoothing score...
+Deletion wide peak at chr2:669578-242447452(31801:55757)
+Smoothing score...
+Deletion wide peak at chr3:28566181-31574489(58083:58150)
+Smoothing score...
+Deletion wide peak at chr3:45785023-45867804(60217:60236)
+Smoothing score...
+Deletion wide peak at chr3:55521008-93772109(64411:66008)
+Smoothing score...
+Deletion wide peak at chr3:2861267-197508782(55758:75144)
+Smoothing score...
+Deletion wide peak at chr5:176409468-176524679(100677:100719)
+Smoothing score...
+Deletion wide peak at chr5:914578-180795228(87409:101651)
+Smoothing score...
+Deletion wide peak at chr5:175959365-176026837(100568:100618)
+Smoothing score...
+Deletion wide peak at chr7:150327232-150696175(130695:130747)
+Smoothing score...
+Deletion wide peak at chr7:95064188-95726907(124704:124753)
+Smoothing score...
+Deletion wide peak at chr7:716864-158380363(117150:131595)
+Smoothing score...
+Deletion wide peak at chr10:415432-135216279(155782:168913)
+Smoothing score...
+Deletion wide peak at chr10:415432-135216279(155782:168913)
+Smoothing score...
+Deletion wide peak at chr10:98273266-98715681(163706:163772)
+Smoothing score...
+Deletion wide peak at chr11:124543536-124739964(185786:185830)
+Smoothing score...
+Deletion wide peak at chr11:77790623-134134856(181135:186828)
+Smoothing score...
+Deletion wide peak at chr12:71031175-71551460(197400:197436)
+Smoothing score...
+Deletion wide peak at chr13:19748301-114897966(205126:210824)
+Smoothing score...
+Deletion wide peak at chr14:64679527-105996133(215747:221379)
+Smoothing score...
+Deletion wide peak at chr18:331666-77108198(262787:267139)
+Saving final_regions...
+Writing output files...
+Writing all_lesions file to: /fh/subscription-VanAllen_Lab/Gistic2_Analysis/Discovery_FFPE_Agilent/23228449/all_lesions.conf_99.txt
+Adding gene annotations
+Writing output gene table files
+Writing q value, p value and amp/del score file
+About to save Raw_copy_number figure file
+{Warning: Large-scale algorithm does not currently solve this problem
+formulation,
+using medium-scale algorithm instead.} 
+> In quadprog at 291
+  In find_text_pos at 42
+  In draw_spaced_text at 42
+  In plot_snp_score at 470
+  In gistic_plots at 213
+  In run_focal_gistic at 359
+  In run_gistic20 at 127
+  In run_gistic2_from_seg at 225
+  In call_gistic2 at 119
+{Warning: Large-scale algorithm does not currently solve this problem
+formulation,
+using medium-scale algorithm instead.} 
+> In quadprog at 291
+  In find_text_pos at 42
+  In draw_spaced_text at 42
+  In plot_snp_score at 470
+  In gistic_plots at 213
+  In run_focal_gistic at 359
+  In run_gistic20 at 127
+  In run_gistic2_from_seg at 225
+  In call_gistic2 at 119
+Focal GISTIC completed without error
+Running broad analysis...
+Reconstructing genome: amp
+Reconstructing genome: aod
+Reconstructing genome: del
+Reconstructing genome: doa
+Calculating median of arm values...
+arm 1: 1p 17394 markers
+arm 2: 1q 14406 markers
+arm 3: 2p 8244 markers
+arm 4: 2q 15713 markers
+arm 5: 3p 10239 markers
+arm 6: 3q 9148 markers
+arm 7: 4p 3487 markers
+arm 8: 4q 8777 markers
+arm 9: 5p 2667 markers
+arm 10: 5q 11576 markers
+arm 11: 6p 7119 markers
+arm 12: 6q 8379 markers
+arm 13: 7p 4740 markers
+arm 14: 7q 9706 markers
+arm 15: 8p 3947 markers
+arm 16: 8q 6801 markers
+arm 17: 9p 3032 markers
+arm 18: 9q 10406 markers
+arm 19: 10p 3063 markers
+arm 20: 10q 10069 markers
+arm 21: 11p 6463 markers
+arm 22: 11q 11452 markers
+arm 23: 12p 4243 markers
+arm 24: 12q 14054 markers
+arm 25: 13p 0 markers
+arm 26: 13q 5699 markers
+arm 27: 14p 0 markers
+arm 28: 14q 10555 markers
+arm 29: 15p 0 markers
+arm 30: 15q 11385 markers
+arm 31: 16p 5365 markers
+arm 32: 16q 5506 markers
+arm 33: 17p 5597 markers
+arm 34: 17q 13554 markers
+arm 35: 18p 993 markers
+arm 36: 18q 3360 markers
+arm 37: 19p 9352 markers
+arm 38: 19q 8832 markers
+arm 39: 20p 2460 markers
+arm 40: 20q 5710 markers
+arm 41: 21p 0 markers
+arm 42: 21q 2942 markers
+arm 43: 22p 0 markers
+arm 44: 22q 4971 markers
+arm 1: 1p 17394 markers
+arm 2: 1q 14406 markers
+arm 3: 2p 8244 markers
+arm 4: 2q 15713 markers
+arm 5: 3p 10239 markers
+arm 6: 3q 9148 markers
+arm 7: 4p 3487 markers
+arm 8: 4q 8777 markers
+arm 9: 5p 2667 markers
+arm 10: 5q 11576 markers
+arm 11: 6p 7119 markers
+arm 12: 6q 8379 markers
+arm 13: 7p 4740 markers
+arm 14: 7q 9706 markers
+arm 15: 8p 3947 markers
+arm 16: 8q 6801 markers
+arm 17: 9p 3032 markers
+arm 18: 9q 10406 markers
+arm 19: 10p 3063 markers
+arm 20: 10q 10069 markers
+arm 21: 11p 6463 markers
+arm 22: 11q 11452 markers
+arm 23: 12p 4243 markers
+arm 24: 12q 14054 markers
+arm 25: 13p 0 markers
+arm 26: 13q 5699 markers
+arm 27: 14p 0 markers
+arm 28: 14q 10555 markers
+arm 29: 15p 0 markers
+arm 30: 15q 11385 markers
+arm 31: 16p 5365 markers
+arm 32: 16q 5506 markers
+arm 33: 17p 5597 markers
+arm 34: 17q 13554 markers
+arm 35: 18p 993 markers
+arm 36: 18q 3360 markers
+arm 37: 19p 9352 markers
+arm 38: 19q 8832 markers
+arm 39: 20p 2460 markers
+arm 40: 20q 5710 markers
+arm 41: 21p 0 markers
+arm 42: 21q 2942 markers
+arm 43: 22p 0 markers
+arm 44: 22q 4971 markers
+     1
+
+     2
+
+     3
+
+     4
+
+     5
+
+     6
+
+     7
+
+     8
+
+     9
+
+    10
+
+    11
+
+    12
+
+    13
+
+    14
+
+    15
+
+    16
+
+    17
+
+    18
+
+    19
+
+    20
+
+    21
+
+    22
+
+    23
+
+    24
+
+    25
+
+    26
+
+    27
+
+    28
+
+    29
+
+    30
+
+    31
+
+    32
+
+    33
+
+    34
+
+    35
+
+    36
+
+    37
+
+    38
+
+    39
+
+Writing arm medians file...
+Reducing all data to genes
+reduce_to_genes: defining gene 1000 of 24326
+reduce_to_genes: defining gene 2000 of 24326
+reduce_to_genes: defining gene 3000 of 24326
+reduce_to_genes: defining gene 4000 of 24326
+reduce_to_genes: defining gene 5000 of 24326
+reduce_to_genes: defining gene 6000 of 24326
+reduce_to_genes: defining gene 7000 of 24326
+reduce_to_genes: defining gene 8000 of 24326
+reduce_to_genes: defining gene 9000 of 24326
+reduce_to_genes: defining gene 10000 of 24326
+reduce_to_genes: defining gene 11000 of 24326
+reduce_to_genes: defining gene 12000 of 24326
+reduce_to_genes: defining gene 13000 of 24326
+reduce_to_genes: defining gene 14000 of 24326
+reduce_to_genes: defining gene 15000 of 24326
+reduce_to_genes: defining gene 16000 of 24326
+reduce_to_genes: defining gene 17000 of 24326
+reduce_to_genes: defining gene 18000 of 24326
+reduce_to_genes: defining gene 19000 of 24326
+reduce_to_genes: defining gene 20000 of 24326
+reduce_to_genes: defining gene 21000 of 24326
+reduce_to_genes: defining gene 22000 of 24326
+reduce_to_genes: defining gene 23000 of 24326
+reduce_to_genes: defining gene 24000 of 24326
+reduce_to_genes: reducing gene 1000 of 23109
+reduce_to_genes: reducing gene 2000 of 23109
+reduce_to_genes: reducing gene 3000 of 23109
+reduce_to_genes: reducing gene 4000 of 23109
+reduce_to_genes: reducing gene 5000 of 23109
+reduce_to_genes: reducing gene 6000 of 23109
+reduce_to_genes: reducing gene 7000 of 23109
+reduce_to_genes: reducing gene 8000 of 23109
+reduce_to_genes: reducing gene 9000 of 23109
+reduce_to_genes: reducing gene 10000 of 23109
+reduce_to_genes: reducing gene 11000 of 23109
+reduce_to_genes: reducing gene 12000 of 23109
+reduce_to_genes: reducing gene 13000 of 23109
+reduce_to_genes: reducing gene 14000 of 23109
+reduce_to_genes: reducing gene 15000 of 23109
+reduce_to_genes: reducing gene 16000 of 23109
+reduce_to_genes: reducing gene 17000 of 23109
+reduce_to_genes: reducing gene 18000 of 23109
+reduce_to_genes: reducing gene 19000 of 23109
+reduce_to_genes: reducing gene 20000 of 23109
+reduce_to_genes: reducing gene 21000 of 23109
+reduce_to_genes: reducing gene 22000 of 23109
+reduce_to_genes: reducing gene 23000 of 23109
+        1000
+
+        2000
+
+        3000
+
+        4000
+
+        5000
+
+        6000
+
+        7000
+
+        8000
+
+        9000
+
+       10000
+
+       11000
+
+       12000
+
+       13000
+
+       14000
+
+       15000
+
+       16000
+
+       17000
+
+       18000
+
+       19000
+
+       20000
+
+       21000
+
+       22000
+
+       23000
+
+Reducing focal data to genes
+Reconstructing genome: amp
+Reconstructing genome: aod
+Reconstructing genome: del
+Reconstructing genome: doa
+reduce_to_genes: defining gene 1000 of 24326
+reduce_to_genes: defining gene 2000 of 24326
+reduce_to_genes: defining gene 3000 of 24326
+reduce_to_genes: defining gene 4000 of 24326
+reduce_to_genes: defining gene 5000 of 24326
+reduce_to_genes: defining gene 6000 of 24326
+reduce_to_genes: defining gene 7000 of 24326
+reduce_to_genes: defining gene 8000 of 24326
+reduce_to_genes: defining gene 9000 of 24326
+reduce_to_genes: defining gene 10000 of 24326
+reduce_to_genes: defining gene 11000 of 24326
+reduce_to_genes: defining gene 12000 of 24326
+reduce_to_genes: defining gene 13000 of 24326
+reduce_to_genes: defining gene 14000 of 24326
+reduce_to_genes: defining gene 15000 of 24326
+reduce_to_genes: defining gene 16000 of 24326
+reduce_to_genes: defining gene 17000 of 24326
+reduce_to_genes: defining gene 18000 of 24326
+reduce_to_genes: defining gene 19000 of 24326
+reduce_to_genes: defining gene 20000 of 24326
+reduce_to_genes: defining gene 21000 of 24326
+reduce_to_genes: defining gene 22000 of 24326
+reduce_to_genes: defining gene 23000 of 24326
+reduce_to_genes: defining gene 24000 of 24326
+reduce_to_genes: reducing gene 1000 of 23109
+reduce_to_genes: reducing gene 2000 of 23109
+reduce_to_genes: reducing gene 3000 of 23109
+reduce_to_genes: reducing gene 4000 of 23109
+reduce_to_genes: reducing gene 5000 of 23109
+reduce_to_genes: reducing gene 6000 of 23109
+reduce_to_genes: reducing gene 7000 of 23109
+reduce_to_genes: reducing gene 8000 of 23109
+reduce_to_genes: reducing gene 9000 of 23109
+reduce_to_genes: reducing gene 10000 of 23109
+reduce_to_genes: reducing gene 11000 of 23109
+reduce_to_genes: reducing gene 12000 of 23109
+reduce_to_genes: reducing gene 13000 of 23109
+reduce_to_genes: reducing gene 14000 of 23109
+reduce_to_genes: reducing gene 15000 of 23109
+reduce_to_genes: reducing gene 16000 of 23109
+reduce_to_genes: reducing gene 17000 of 23109
+reduce_to_genes: reducing gene 18000 of 23109
+reduce_to_genes: reducing gene 19000 of 23109
+reduce_to_genes: reducing gene 20000 of 23109
+reduce_to_genes: reducing gene 21000 of 23109
+reduce_to_genes: reducing gene 22000 of 23109
+reduce_to_genes: reducing gene 23000 of 23109
+        1000
+
+        2000
+
+        3000
+
+        4000
+
+        5000
+
+        6000
+
+        7000
+
+        8000
+
+        9000
+
+       10000
+
+       11000
+
+       12000
+
+       13000
+
+       14000
+
+       15000
+
+       16000
+
+       17000
+
+       18000
+
+       19000
+
+       20000
+
+       21000
+
+       22000
+
+       23000
+
+Reducing broad data to genes
+Reconstructing genome: amp
+Reconstructing genome: aod
+Reconstructing genome: del
+Reconstructing genome: doa
+reduce_to_genes: defining gene 1000 of 24326
+reduce_to_genes: defining gene 2000 of 24326
+reduce_to_genes: defining gene 3000 of 24326
+reduce_to_genes: defining gene 4000 of 24326
+reduce_to_genes: defining gene 5000 of 24326
+reduce_to_genes: defining gene 6000 of 24326
+reduce_to_genes: defining gene 7000 of 24326
+reduce_to_genes: defining gene 8000 of 24326
+reduce_to_genes: defining gene 9000 of 24326
+reduce_to_genes: defining gene 10000 of 24326
+reduce_to_genes: defining gene 11000 of 24326
+reduce_to_genes: defining gene 12000 of 24326
+reduce_to_genes: defining gene 13000 of 24326
+reduce_to_genes: defining gene 14000 of 24326
+reduce_to_genes: defining gene 15000 of 24326
+reduce_to_genes: defining gene 16000 of 24326
+reduce_to_genes: defining gene 17000 of 24326
+reduce_to_genes: defining gene 18000 of 24326
+reduce_to_genes: defining gene 19000 of 24326
+reduce_to_genes: defining gene 20000 of 24326
+reduce_to_genes: defining gene 21000 of 24326
+reduce_to_genes: defining gene 22000 of 24326
+reduce_to_genes: defining gene 23000 of 24326
+reduce_to_genes: defining gene 24000 of 24326
+reduce_to_genes: reducing gene 1000 of 23109
+reduce_to_genes: reducing gene 2000 of 23109
+reduce_to_genes: reducing gene 3000 of 23109
+reduce_to_genes: reducing gene 4000 of 23109
+reduce_to_genes: reducing gene 5000 of 23109
+reduce_to_genes: reducing gene 6000 of 23109
+reduce_to_genes: reducing gene 7000 of 23109
+reduce_to_genes: reducing gene 8000 of 23109
+reduce_to_genes: reducing gene 9000 of 23109
+reduce_to_genes: reducing gene 10000 of 23109
+reduce_to_genes: reducing gene 11000 of 23109
+reduce_to_genes: reducing gene 12000 of 23109
+reduce_to_genes: reducing gene 13000 of 23109
+reduce_to_genes: reducing gene 14000 of 23109
+reduce_to_genes: reducing gene 15000 of 23109
+reduce_to_genes: reducing gene 16000 of 23109
+reduce_to_genes: reducing gene 17000 of 23109
+reduce_to_genes: reducing gene 18000 of 23109
+reduce_to_genes: reducing gene 19000 of 23109
+reduce_to_genes: reducing gene 20000 of 23109
+reduce_to_genes: reducing gene 21000 of 23109
+reduce_to_genes: reducing gene 22000 of 23109
+reduce_to_genes: reducing gene 23000 of 23109
+        1000
+
+        2000
+
+        3000
+
+        4000
+
+        5000
+
+        6000
+
+        7000
+
+        8000
+
+        9000
+
+       10000
+
+       11000
+
+       12000
+
+       13000
+
+       14000
+
+       15000
+
+       16000
+
+       17000
+
+       18000
+
+       19000
+
+       20000
+
+       21000
+
+       22000
+
+       23000
+
+Calculating sample cutoffs...
+Reading file using format:%s%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f
+Writing sample cutoff file...
+Thresholding data...
+Reading file using format:%s%f%f
+Reading file using format:%s%s%s%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f%f
+Writing thresholded gene calls...
+   100
+
+   200
+
+   300
+
+   400
+
+   500
+
+   600
+
+   700
+
+   800
+
+   900
+
+        1000
+
+        1100
+
+        1200
+
+        1300
+
+        1400
+
+        1500
+
+        1600
+
+        1700
+
+        1800
+
+        1900
+
+        2000
+
+        2100
+
+        2200
+
+        2300
+
+        2400
+
+        2500
+
+        2600
+
+        2700
+
+        2800
+
+        2900
+
+        3000
+
+        3100
+
+        3200
+
+        3300
+
+        3400
+
+        3500
+
+        3600
+
+        3700
+
+        3800
+
+        3900
+
+        4000
+
+        4100
+
+        4200
+
+        4300
+
+        4400
+
+        4500
+
+        4600
+
+        4700
+
+        4800
+
+        4900
+
+        5000
+
+        5100
+
+        5200
+
+        5300
+
+        5400
+
+        5500
+
+        5600
+
+        5700
+
+        5800
+
+        5900
+
+        6000
+
+        6100
+
+        6200
+
+        6300
+
+        6400
+
+        6500
+
+        6600
+
+        6700
+
+        6800
+
+        6900
+
+        7000
+
+        7100
+
+        7200
+
+        7300
+
+        7400
+
+        7500
+
+        7600
+
+        7700
+
+        7800
+
+        7900
+
+        8000
+
+        8100
+
+        8200
+
+        8300
+
+        8400
+
+        8500
+
+        8600
+
+        8700
+
+        8800
+
+        8900
+
+        9000
+
+        9100
+
+        9200
+
+        9300
+
+        9400
+
+        9500
+
+        9600
+
+        9700
+
+        9800
+
+        9900
+
+       10000
+
+       10100
+
+       10200
+
+       10300
+
+       10400
+
+       10500
+
+       10600
+
+       10700
+
+       10800
+
+       10900
+
+       11000
+
+       11100
+
+       11200
+
+       11300
+
+       11400
+
+       11500
+
+       11600
+
+       11700
+
+       11800
+
+       11900
+
+       12000
+
+       12100
+
+       12200
+
+       12300
+
+       12400
+
+       12500
+
+       12600
+
+       12700
+
+       12800
+
+       12900
+
+       13000
+
+       13100
+
+       13200
+
+       13300
+
+       13400
+
+       13500
+
+       13600
+
+       13700
+
+       13800
+
+       13900
+
+       14000
+
+       14100
+
+       14200
+
+       14300
+
+       14400
+
+       14500
+
+       14600
+
+       14700
+
+       14800
+
+       14900
+
+       15000
+
+       15100
+
+       15200
+
+       15300
+
+       15400
+
+       15500
+
+       15600
+
+       15700
+
+       15800
+
+       15900
+
+       16000
+
+       16100
+
+       16200
+
+       16300
+
+       16400
+
+       16500
+
+       16600
+
+       16700
+
+       16800
+
+       16900
+
+       17000
+
+       17100
+
+       17200
+
+       17300
+
+       17400
+
+       17500
+
+       17600
+
+       17700
+
+       17800
+
+       17900
+
+       18000
+
+       18100
+
+       18200
+
+       18300
+
+       18400
+
+       18500
+
+       18600
+
+       18700
+
+       18800
+
+       18900
+
+       19000
+
+       19100
+
+       19200
+
+       19300
+
+       19400
+
+       19500
+
+       19600
+
+       19700
+
+       19800
+
+       19900
+
+       20000
+
+       20100
+
+       20200
+
+       20300
+
+       20400
+
+       20500
+
+       20600
+
+       20700
+
+       20800
+
+       20900
+
+       21000
+
+       21100
+
+       21200
+
+       21300
+
+       21400
+
+       21500
+
+       21600
+
+       21700
+
+       21800
+
+       21900
+
+       22000
+
+       22100
+
+       22200
+
+       22300
+
+       22400
+
+       22500
+
+       22600
+
+       22700
+
+       22800
+
+       22900
+
+       23000
+
+       23100
+
+Finished writing gene tables.
+GISTIC2 run completed!
+Reconstructing genome: amp
+Reconstructing genome: aod
+Reconstructing genome: del
+Reconstructing genome: doa
+Reconstructing genome: amp
+Reconstructing genome: aod
+Reconstructing genome: del
+Reconstructing genome: doa

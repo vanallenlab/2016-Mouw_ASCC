@@ -1,0 +1,102 @@
+#version 2.4
+## ##fileformat=VCFv4.1
+## ##fileDate=20160203
+## ##source=strelka
+## ##source_version=2.0.13
+## ##startTime=Wed Feb  3 14:01:13 2016
+## ##reference=file:///seq/references/Homo_sapiens_assembly19/v1/Homo_sapiens_assembly19.fasta
+## ##content=strelka somatic indel calls
+## ##germlineIndelTheta=0.0001
+## ##priorSomaticIndelRate=1e-06
+## ##cmdline=/xchip/tcga/gdac_prod/applications/process_mgmt/firehose_task_registry/cga/RunStrelka/broadinstitute.org/cancer.genome.analysis/10439/11/strelka_workflow_1.0.11/libexec/consolidateResults.pl --config=/fh/subscription-VanAllen_Lab/RunStrelka/AC-P10-TP-NT-SM-63B53-SM-63B54/22020271/analysis/config/run.config.ini
+## ##contig=<ID=1,length=249250621>
+## ##contig=<ID=2,length=243199373>
+## ##contig=<ID=3,length=198022430>
+## ##contig=<ID=4,length=191154276>
+## ##contig=<ID=5,length=180915260>
+## ##contig=<ID=6,length=171115067>
+## ##contig=<ID=7,length=159138663>
+## ##contig=<ID=8,length=146364022>
+## ##contig=<ID=9,length=141213431>
+## ##contig=<ID=10,length=135534747>
+## ##contig=<ID=11,length=135006516>
+## ##contig=<ID=12,length=133851895>
+## ##contig=<ID=13,length=115169878>
+## ##contig=<ID=14,length=107349540>
+## ##contig=<ID=15,length=102531392>
+## ##contig=<ID=16,length=90354753>
+## ##contig=<ID=17,length=81195210>
+## ##contig=<ID=18,length=78077248>
+## ##contig=<ID=19,length=59128983>
+## ##contig=<ID=20,length=63025520>
+## ##contig=<ID=21,length=48129895>
+## ##contig=<ID=22,length=51304566>
+## ##contig=<ID=X,length=155270560>
+## ##contig=<ID=Y,length=59373566>
+## ##contig=<ID=MT,length=16569>
+## ##contig=<ID=GL000207.1,length=4262>
+## ##contig=<ID=GL000226.1,length=15008>
+## ##contig=<ID=GL000229.1,length=19913>
+## ##contig=<ID=GL000231.1,length=27386>
+## ##contig=<ID=GL000210.1,length=27682>
+## ##contig=<ID=GL000239.1,length=33824>
+## ##contig=<ID=GL000235.1,length=34474>
+## ##contig=<ID=GL000201.1,length=36148>
+## ##contig=<ID=GL000247.1,length=36422>
+## ##contig=<ID=GL000245.1,length=36651>
+## ##contig=<ID=GL000197.1,length=37175>
+## ##contig=<ID=GL000203.1,length=37498>
+## ##contig=<ID=GL000246.1,length=38154>
+## ##contig=<ID=GL000249.1,length=38502>
+## ##contig=<ID=GL000196.1,length=38914>
+## ##contig=<ID=GL000248.1,length=39786>
+## ##contig=<ID=GL000244.1,length=39929>
+## ##contig=<ID=GL000238.1,length=39939>
+## ##contig=<ID=GL000202.1,length=40103>
+## ##contig=<ID=GL000234.1,length=40531>
+## ##contig=<ID=GL000232.1,length=40652>
+## ##contig=<ID=GL000206.1,length=41001>
+## ##contig=<ID=GL000240.1,length=41933>
+## ##contig=<ID=GL000236.1,length=41934>
+## ##contig=<ID=GL000241.1,length=42152>
+## ##contig=<ID=GL000243.1,length=43341>
+## ##contig=<ID=GL000242.1,length=43523>
+## ##contig=<ID=GL000230.1,length=43691>
+## ##contig=<ID=GL000237.1,length=45867>
+## ##contig=<ID=GL000233.1,length=45941>
+## ##contig=<ID=GL000204.1,length=81310>
+## ##contig=<ID=GL000198.1,length=90085>
+## ##contig=<ID=GL000208.1,length=92689>
+## ##contig=<ID=GL000191.1,length=106433>
+## ##contig=<ID=GL000227.1,length=128374>
+## ##contig=<ID=GL000228.1,length=129120>
+## ##contig=<ID=GL000214.1,length=137718>
+## ##contig=<ID=GL000221.1,length=155397>
+## ##contig=<ID=GL000209.1,length=159169>
+## ##contig=<ID=GL000218.1,length=161147>
+## ##contig=<ID=GL000220.1,length=161802>
+## ##contig=<ID=GL000213.1,length=164239>
+## ##contig=<ID=GL000211.1,length=166566>
+## ##contig=<ID=GL000199.1,length=169874>
+## ##contig=<ID=GL000217.1,length=172149>
+## ##contig=<ID=GL000216.1,length=172294>
+## ##contig=<ID=GL000215.1,length=172545>
+## ##contig=<ID=GL000205.1,length=174588>
+## ##contig=<ID=GL000219.1,length=179198>
+## ##contig=<ID=GL000224.1,length=179693>
+## ##contig=<ID=GL000223.1,length=180455>
+## ##contig=<ID=GL000195.1,length=182896>
+## ##contig=<ID=GL000212.1,length=186858>
+## ##contig=<ID=GL000222.1,length=186861>
+## ##contig=<ID=GL000200.1,length=187035>
+## ##contig=<ID=GL000193.1,length=189789>
+## ##contig=<ID=GL000194.1,length=191469>
+## ##contig=<ID=GL000225.1,length=211173>
+## ##contig=<ID=GL000192.1,length=547496>
+## ##contig=<ID=NC_007605,length=171823>
+## Oncotator v1.2.4.0 | GENCODE v18 | Flat File Reference hg19 | UniProt_AAxform 2011_09 | ClinVar 12.03.20 | ESP 6500SI-V2 | ORegAnno UCSC Track | dbSNP build 134 | CCLE_By_GP 09292010 | COSMIC v62_291112 | 1000Genome phase1 | UniProt_AA 2011_09 | dbNSFP v2.4 | ESP 6500SI-V2 | COSMIC_FusionGenes v62_291112 | gencode_xref_refseq metadata_v18 | CCLE_By_Gene 09292010 | ACHILLES_Lineage_Results 110303 | CGC full_2012-03-15 | UniProt 2011_09 | HumanDNARepairGenes 20110905 | HGNC Nov2013 | COSMIC_Tissue 291112 | Familial_Cancer_Genes 20110905 | TUMORScape 20100104 | Ensembl ICGC MUCOPA | TCGAScape 110405 | MutSig Published Results 20110905 
+Hugo_Symbol	Entrez_Gene_Id	Center	NCBI_Build	Chromosome	Start_position	End_position	Strand	Variant_Classification	Variant_Type	Reference_Allele	Tumor_Seq_Allele1	Tumor_Seq_Allele2	dbSNP_RS	dbSNP_Val_Status	Tumor_Sample_Barcode	Matched_Norm_Sample_Barcode	Match_Norm_Seq_Allele1	Match_Norm_Seq_Allele2	Tumor_Validation_Allele1	Tumor_Validation_Allele2	Match_Norm_Validation_Allele1	Match_Norm_Validation_Allele2	Verification_Status	Validation_Status	Mutation_Status	Sequencing_Phase	Sequence_Source	Validation_Method	Score	BAM_file	Sequencer	Tumor_Sample_UUID	Matched_Norm_Sample_UUID	Genome_Change	Annotation_Transcript	Transcript_Strand	Transcript_Exon	Transcript_Position	cDNA_Change	Codon_Change	Protein_Change	Other_Transcripts	Refseq_mRNA_Id	Refseq_prot_Id	SwissProt_acc_Id	SwissProt_entry_Id	Description	UniProt_AApos	UniProt_Region	UniProt_Site	UniProt_Natural_Variations	UniProt_Experimental_Info	GO_Biological_Process	GO_Cellular_Component	GO_Molecular_Function	COSMIC_overlapping_mutations	COSMIC_fusion_genes	COSMIC_tissue_types_affected	COSMIC_total_alterations_in_gene	Tumorscape_Amplification_Peaks	Tumorscape_Deletion_Peaks	TCGAscape_Amplification_Peaks	TCGAscape_Deletion_Peaks	DrugBank	ref_context	gc_content	CCLE_ONCOMAP_overlapping_mutations	CCLE_ONCOMAP_total_mutations_in_gene	CGC_Mutation_Type	CGC_Translocation_Partner	CGC_Tumor_Types_Somatic	CGC_Tumor_Types_Germline	CGC_Other_Diseases	DNARepairGenes_Role	FamilialCancerDatabase_Syndromes	MUTSIG_Published_Results	OREGANNO_ID	OREGANNO_Values	1000Genome_AA	1000Genome_AC	1000Genome_AF	1000Genome_AFR_AF	1000Genome_AMR_AF	1000Genome_AN	1000Genome_ASN_AF	1000Genome_AVGPOST	1000Genome_CIEND	1000Genome_CIPOS	1000Genome_END	1000Genome_ERATE	1000Genome_EUR_AF	1000Genome_HOMLEN	1000Genome_HOMSEQ	1000Genome_LDAF	1000Genome_RSQ	1000Genome_SNPSOURCE	1000Genome_SVLEN	1000Genome_SVTYPE	1000Genome_THETA	1000Genome_VT	ACHILLES_Lineage_Results_Top_Genes	BCNoise	CGC_Cancer Germline Mut	CGC_Cancer Molecular Genetics	CGC_Cancer Somatic Mut	CGC_Cancer Syndrome	CGC_Chr	CGC_Chr Band	CGC_GeneID	CGC_Name	CGC_Other Germline Mut	CGC_Tissue Type	COSMIC_n_overlapping_mutations	COSMIC_overlapping_mutation_descriptions	COSMIC_overlapping_primary_sites	ClinVar_ASSEMBLY	ClinVar_HGMD_ID	ClinVar_SYM	ClinVar_TYPE	ClinVar_rs	DP2	DP50	ESP_AA	ESP_AAC	ESP_AA_AC	ESP_AA_AGE	ESP_AA_GTC	ESP_AvgAAsampleReadDepth	ESP_AvgEAsampleReadDepth	ESP_AvgSampleReadDepth	ESP_CA	ESP_CDP	ESP_CG	ESP_CP	ESP_Chromosome	ESP_DBSNP	ESP_DP	ESP_EA_AC	ESP_EA_AGE	ESP_EA_GTC	ESP_EXOME_CHIP	ESP_FG	ESP_GL	ESP_GM	ESP_GS	ESP_GTC	ESP_GTS	ESP_GWAS_PUBMED	ESP_MAF	ESP_PH	ESP_PP	ESP_Position	ESP_TAC	ESP_TotalAAsamplesCovered	ESP_TotalEAsamplesCovered	ESP_TotalSamplesCovered	Ensembl_so_accession	Ensembl_so_term	FDP50	Familial_Cancer_Genes_Reference	Familial_Cancer_Genes_Synonym	HGNC_Ensembl Gene ID	HGNC_HGNC ID	HGNC_RefSeq IDs	HGNC_Status	HGNC_UCSC ID(supplied by UCSC)	HGVS_coding_DNA_change	HGVS_genomic_change	HGVS_protein_change	IC	IHP	NT	ORegAnno_bin	OVERLAP	QSI	QSI_NT	QSI_ref	RC	Repeat	SGT	SUBDP50	SVTYPE	TAR	TIR	TOR	TQSI	TQSI_NT	UniProt_alt_uniprot_accessions	alt_allele_seen	annotation_transcript	build	ccds_id	center	dbNSFP_1000Gp1_AC	dbNSFP_1000Gp1_AF	dbNSFP_1000Gp1_AFR_AC	dbNSFP_1000Gp1_AFR_AF	dbNSFP_1000Gp1_AMR_AC	dbNSFP_1000Gp1_AMR_AF	dbNSFP_1000Gp1_ASN_AC	dbNSFP_1000Gp1_ASN_AF	dbNSFP_1000Gp1_EUR_AC	dbNSFP_1000Gp1_EUR_AF	dbNSFP_Ancestral_allele	dbNSFP_CADD_phred	dbNSFP_CADD_raw	dbNSFP_CADD_raw_rankscore	dbNSFP_ESP6500_AA_AF	dbNSFP_ESP6500_EA_AF	dbNSFP_Ensembl_geneid	dbNSFP_Ensembl_transcriptid	dbNSFP_FATHMM_pred	dbNSFP_FATHMM_rankscore	dbNSFP_FATHMM_score	dbNSFP_GERP++_NR	dbNSFP_GERP++_RS	dbNSFP_GERP++_RS_rankscore	dbNSFP_Interpro_domain	dbNSFP_LRT_Omega	dbNSFP_LRT_converted_rankscore	dbNSFP_LRT_pred	dbNSFP_LRT_score	dbNSFP_LR_pred	dbNSFP_LR_rankscore	dbNSFP_LR_score	dbNSFP_MutationAssessor_pred	dbNSFP_MutationAssessor_rankscore	dbNSFP_MutationAssessor_score	dbNSFP_MutationTaster_converted_rankscore	dbNSFP_MutationTaster_pred	dbNSFP_MutationTaster_score	dbNSFP_Polyphen2_HDIV_pred	dbNSFP_Polyphen2_HDIV_rankscore	dbNSFP_Polyphen2_HDIV_score	dbNSFP_Polyphen2_HVAR_pred	dbNSFP_Polyphen2_HVAR_rankscore	dbNSFP_Polyphen2_HVAR_score	dbNSFP_RadialSVM_pred	dbNSFP_RadialSVM_rankscore	dbNSFP_RadialSVM_score	dbNSFP_Reliability_index	dbNSFP_SIFT_converted_rankscore	dbNSFP_SIFT_pred	dbNSFP_SIFT_score	dbNSFP_SLR_test_statistic	dbNSFP_SiPhy_29way_logOdds	dbNSFP_SiPhy_29way_logOdds_rankscore	dbNSFP_SiPhy_29way_pi	dbNSFP_UniSNP_ids	dbNSFP_Uniprot_aapos	dbNSFP_Uniprot_acc	dbNSFP_Uniprot_id	dbNSFP_aaalt	dbNSFP_aapos	dbNSFP_aapos_FATHMM	dbNSFP_aapos_SIFT	dbNSFP_aaref	dbNSFP_cds_strand	dbNSFP_codonpos	dbNSFP_fold-degenerate	dbNSFP_genename	dbNSFP_hg18_pos(1-coor)	dbNSFP_phastCons100way_vertebrate	dbNSFP_phastCons100way_vertebrate_rankscore	dbNSFP_phastCons46way_placental	dbNSFP_phastCons46way_placental_rankscore	dbNSFP_phastCons46way_primate	dbNSFP_phastCons46way_primate_rankscore	dbNSFP_phyloP100way_vertebrate	dbNSFP_phyloP100way_vertebrate_rankscore	dbNSFP_phyloP46way_placental	dbNSFP_phyloP46way_placental_rankscore	dbNSFP_phyloP46way_primate	dbNSFP_phyloP46way_primate_rankscore	dbNSFP_refcodon	gencode_transcript_name	gencode_transcript_status	gencode_transcript_tags	gencode_transcript_type	gene_id	gene_type	havana_transcript	iHpol	id	individual_barcode	platform	qual	read_depth	sample_name	secondary_variant_classification	somatic	strand	tandem_repeat_unit	tumor_subtype
+STIL	6491	broad.mit.edu	37	1	47726239	47726239	+	Intron	DEL	A	A	-			AC-P10-Tumor-SM-63B53	AC-P10-Normal-SM-63B54								Untested	Somatic	Phase_I	WXS	none			Illumina GAIIx	NA	NA	g.chr1:47726239delA	ENST00000360380.3	-	17	3190				STIL_ENST00000396221.2_Intron|STIL_ENST00000371877.3_Intron|STIL_ENST00000337817.5_Intron|STIL_ENST00000243182.6_Intron			Q15468	STIL_HUMAN	SCL/TAL1 interrupting locus						cell proliferation|multicellular organismal development	centrosome|cytosol				central_nervous_system(1)|endometrium(4)|kidney(3)|large_intestine(9)|lung(14)|pancreas(1)|skin(1)|upper_aerodigestive_tract(3)	36		Acute lymphoblastic leukemia(5;0.00116)|all_hematologic(5;0.00444)				AATTTTTTTGAAAAATCACTA	0.418																																				PASS											0								52	61.68						39.0	41.0	40.0					1																	47726239		2175	4286	6461	SO:0001627	intron_variant	0.21			ENSG00000123473	HGNC:10879	NM_003035	Approved	uc001crd.1	ENST00000360380.3:c.2827-28T>-	Exception_encountered		4	7	ref		False	54	54	PASS	5	PASS	ref->het	0.0		26,28	18,18	5,5	2	2	Q5T0C5|Q68CN9	True	ENST00000360380.3	hg19	CCDS548.1	broad.mit.edu																																																																																			STIL-001	KNOWN	basic|CCDS	protein_coding		protein_coding	OTTHUMT00000021649.2	PASS		AC-P10	illumina	None	52	AC-P10-Normal-SM-63B54		True	-	A	Primary
+ZNF750	79755	broad.mit.edu	37	17	80789545	80789561	+	Frame_Shift_Del	DEL	AGCCAGCAGGTAAGGCG	AGCCAGCAGGTAAGGCG	-	rs143407397|rs139857395		AC-P10-Tumor-SM-63B53	AC-P10-Normal-SM-63B54								Untested	Somatic	Phase_I	WXS	none			Illumina GAIIx	NA	NA	g.chr17:80789545_80789561delAGCCAGCAGGTAAGGCG	ENST00000269394.3	-	2	1603_1619	c.770_786delCGCCTTACCTGCTGGCT	c.(769-786)tcgccttacctgctggctfs	p.SPYLLA257fs	ZNF750_ENST00000572562.1_Intron|TBCD_ENST00000539345.2_Intron|TBCD_ENST00000397466.2_Intron|TBCD_ENST00000355528.4_Intron	NM_024702.2	NP_078978.2	Q32MQ0	ZN750_HUMAN	zinc finger protein 750	257						intracellular	zinc ion binding			NS(3)|breast(2)|central_nervous_system(1)|cervix(1)|endometrium(4)|large_intestine(4)|lung(12)|prostate(1)|skin(1)|upper_aerodigestive_tract(2)	31	Breast(20;0.000523)|all_neural(118;0.0779)	all_cancers(8;0.0514)|all_epithelial(8;0.0748)	OV - Ovarian serous cystadenocarcinoma(97;0.0868)|BRCA - Breast invasive adenocarcinoma(99;0.149)			GCGAGCTCCCAGCCAGCAGGTAAGGCGAGTAGATGGT	0.608																																				PASS											0								54	53.91																																			SO:0001589	frameshift_variant	0.3				HGNC:25843	NM_024702	Approved	uc002kga.3	ENST00000269394.3:c.770_786delCGCCTTACCTGCTGGCT	Exception_encountered	unknown_prot_seq_id:p.Ser257fs	0	4	ref		False	83	83	PASS	1	PASS	ref->het	0.0		26,26	19,19	9,9	1	1	Q9H899	True	ENST00000269394.3	hg19	CCDS11819.1	broad.mit.edu																																																																																			ZNF750-001	KNOWN	basic|CCDS	protein_coding		protein_coding	OTTHUMT00000439074.2	PASS		AC-P10	illumina	None	54	AC-P10-Normal-SM-63B54		True	-	AGCCAGCAGGTAAGGCG	Primary
+JAG1	182	broad.mit.edu	37	20	10627644	10627645	+	Frame_Shift_Ins	INS	-	-	CGACTGACTCTTG			AC-P10-Tumor-SM-63B53	AC-P10-Normal-SM-63B54								Untested	Somatic	Phase_I	WXS	none			Illumina GAIIx	NA	NA	g.chr20:10627644_10627645insCGACTGACTCTTG	ENST00000254958.5	-	14	2342_2343	c.1827_1828insCAAGAGTCAGTCG	c.(1825-1830)tcgggafs	p.SG609fs	JAG1_ENST00000423891.2_Frame_Shift_Ins_p.SG450fs	NM_000214.2	NP_000205.1	P78504	JAG1_HUMAN	jagged 1	609	EGF-like 10.				angiogenesis|cell communication|cell fate determination|endothelial cell differentiation|hemopoiesis|keratinocyte differentiation|myoblast differentiation|Notch receptor processing|Notch signaling pathway|regulation of cell migration|regulation of cell proliferation	extracellular region|integral to plasma membrane	calcium ion binding|growth factor activity|Notch binding|structural molecule activity			biliary_tract(1)|breast(2)|central_nervous_system(3)|cervix(1)|endometrium(6)|kidney(3)|large_intestine(10)|lung(14)|ovary(2)|pancreas(1)|urinary_tract(1)	44						AATTTGCCTCCCGACTGACTCT	0.545									Alagille Syndrome																											PASS											0								151	154.78																																			SO:0001589	frameshift_variant	0.6	Familial Cancer Database	ALGS1, ALGS2.Alagille-Watson syndrome	ENSG00000101384	HGNC:6188	NM_000214	Approved	uc002wnw.2	ENST00000254958.5:c.1815_1827dupCAAGAGTCAGTCG	Exception_encountered	unknown_prot_seq_id:p.Ser609fs	2	5	ref		False	40	40	PASS	1	PASS	ref->het	0.0		68,68	14,14	65,65	1	1	A0AV43|O14902|O15122|Q15816	True	ENST00000254958.5	hg19	CCDS13112.1	broad.mit.edu																																																																																			JAG1-201	KNOWN	basic|CCDS	protein_coding		protein_coding		PASS		AC-P10	illumina	None	151	AC-P10-Normal-SM-63B54		True	-	CGACTGACTCTTG	Primary
+COL4A6	1288	broad.mit.edu	37	X	107430330	107430339	+	Frame_Shift_Del	DEL	AGATCCGGGA	AGATCCGGGA	-	rs143574845		AC-P10-Tumor-SM-63B53	AC-P10-Normal-SM-63B54								Untested	Somatic	Phase_I	WXS	none			Illumina GAIIx	NA	NA	g.chrX:107430330_107430339delAGATCCGGGA	ENST00000334504.7	-	23	2171_2180	c.1938_1947delTCCCGGATCT	c.(1936-1947)cttcccggatctfs	p.LPGS646fs	COL4A6_ENST00000372216.4_Frame_Shift_Del_p.LPGS647fs|COL4A6_ENST00000545689.1_Frame_Shift_Del_p.LPGS646fs|COL4A6_ENST00000538570.1_Frame_Shift_Del_p.LPGS646fs|COL4A6_ENST00000394872.2_Frame_Shift_Del_p.LPGS647fs	NM_033641.2	NP_378667.1	Q14031	CO4A6_HUMAN	collagen, type IV, alpha 6	647	Triple-helical region.				cell adhesion|extracellular matrix organization	collagen type IV	extracellular matrix structural constituent|protein binding			breast(2)|central_nervous_system(1)|endometrium(8)|haematopoietic_and_lymphoid_tissue(2)|kidney(6)|large_intestine(20)|lung(41)|ovary(7)|prostate(1)|skin(1)|stomach(1)|urinary_tract(2)	92						ACTCACCCTTAGATCCGGGAAGGCCTTGTT	0.500									Alport syndrome with Diffuse Leiomyomatosis																										Melanoma(87;1895 1945 2589 7165)	PASS											0								388	341.73																																			SO:0001589	frameshift_variant	1.57	Familial Cancer Database		ENSG00000197565	HGNC:2208		Approved	uc004env.4	ENST00000334504.7:c.1938_1947delTCCCGGATCT	Exception_encountered	unknown_prot_seq_id:p.Leu646fs	0	3	ref		False	123	123	PASS	1	PASS	ref->het	0.0		355,357	13,13	47,48	1	1	Q12823|Q14053|Q5JYH6|Q5JYH8|Q9NQM5|Q9NTX3|Q9UJ76|Q9UMG6|Q9Y4L4	True	ENST00000334504.7	hg19	CCDS14542.1	broad.mit.edu																																																																																			COL4A6-002	KNOWN	basic|CCDS	protein_coding		protein_coding	OTTHUMT00000057876.2	PASS		AC-P10	illumina	None	388	AC-P10-Normal-SM-63B54		True	-	AGATCCGGGA	Primary

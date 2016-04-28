@@ -1,0 +1,103 @@
+#version 2.4
+## ##fileformat=VCFv4.1
+## ##fileDate=20160203
+## ##source=strelka
+## ##source_version=2.0.13
+## ##startTime=Wed Feb  3 14:46:13 2016
+## ##reference=file:///seq/references/Homo_sapiens_assembly19/v1/Homo_sapiens_assembly19.fasta
+## ##content=strelka somatic indel calls
+## ##germlineIndelTheta=0.0001
+## ##priorSomaticIndelRate=1e-06
+## ##cmdline=/xchip/tcga/gdac_prod/applications/process_mgmt/firehose_task_registry/cga/RunStrelka/broadinstitute.org/cancer.genome.analysis/10439/11/strelka_workflow_1.0.11/libexec/consolidateResults.pl --config=/fh/subscription-VanAllen_Lab/RunStrelka/AC-P07-TP-NT-SM-63B4V-SM-63B4W/22020263/analysis/config/run.config.ini
+## ##contig=<ID=1,length=249250621>
+## ##contig=<ID=2,length=243199373>
+## ##contig=<ID=3,length=198022430>
+## ##contig=<ID=4,length=191154276>
+## ##contig=<ID=5,length=180915260>
+## ##contig=<ID=6,length=171115067>
+## ##contig=<ID=7,length=159138663>
+## ##contig=<ID=8,length=146364022>
+## ##contig=<ID=9,length=141213431>
+## ##contig=<ID=10,length=135534747>
+## ##contig=<ID=11,length=135006516>
+## ##contig=<ID=12,length=133851895>
+## ##contig=<ID=13,length=115169878>
+## ##contig=<ID=14,length=107349540>
+## ##contig=<ID=15,length=102531392>
+## ##contig=<ID=16,length=90354753>
+## ##contig=<ID=17,length=81195210>
+## ##contig=<ID=18,length=78077248>
+## ##contig=<ID=19,length=59128983>
+## ##contig=<ID=20,length=63025520>
+## ##contig=<ID=21,length=48129895>
+## ##contig=<ID=22,length=51304566>
+## ##contig=<ID=X,length=155270560>
+## ##contig=<ID=Y,length=59373566>
+## ##contig=<ID=MT,length=16569>
+## ##contig=<ID=GL000207.1,length=4262>
+## ##contig=<ID=GL000226.1,length=15008>
+## ##contig=<ID=GL000229.1,length=19913>
+## ##contig=<ID=GL000231.1,length=27386>
+## ##contig=<ID=GL000210.1,length=27682>
+## ##contig=<ID=GL000239.1,length=33824>
+## ##contig=<ID=GL000235.1,length=34474>
+## ##contig=<ID=GL000201.1,length=36148>
+## ##contig=<ID=GL000247.1,length=36422>
+## ##contig=<ID=GL000245.1,length=36651>
+## ##contig=<ID=GL000197.1,length=37175>
+## ##contig=<ID=GL000203.1,length=37498>
+## ##contig=<ID=GL000246.1,length=38154>
+## ##contig=<ID=GL000249.1,length=38502>
+## ##contig=<ID=GL000196.1,length=38914>
+## ##contig=<ID=GL000248.1,length=39786>
+## ##contig=<ID=GL000244.1,length=39929>
+## ##contig=<ID=GL000238.1,length=39939>
+## ##contig=<ID=GL000202.1,length=40103>
+## ##contig=<ID=GL000234.1,length=40531>
+## ##contig=<ID=GL000232.1,length=40652>
+## ##contig=<ID=GL000206.1,length=41001>
+## ##contig=<ID=GL000240.1,length=41933>
+## ##contig=<ID=GL000236.1,length=41934>
+## ##contig=<ID=GL000241.1,length=42152>
+## ##contig=<ID=GL000243.1,length=43341>
+## ##contig=<ID=GL000242.1,length=43523>
+## ##contig=<ID=GL000230.1,length=43691>
+## ##contig=<ID=GL000237.1,length=45867>
+## ##contig=<ID=GL000233.1,length=45941>
+## ##contig=<ID=GL000204.1,length=81310>
+## ##contig=<ID=GL000198.1,length=90085>
+## ##contig=<ID=GL000208.1,length=92689>
+## ##contig=<ID=GL000191.1,length=106433>
+## ##contig=<ID=GL000227.1,length=128374>
+## ##contig=<ID=GL000228.1,length=129120>
+## ##contig=<ID=GL000214.1,length=137718>
+## ##contig=<ID=GL000221.1,length=155397>
+## ##contig=<ID=GL000209.1,length=159169>
+## ##contig=<ID=GL000218.1,length=161147>
+## ##contig=<ID=GL000220.1,length=161802>
+## ##contig=<ID=GL000213.1,length=164239>
+## ##contig=<ID=GL000211.1,length=166566>
+## ##contig=<ID=GL000199.1,length=169874>
+## ##contig=<ID=GL000217.1,length=172149>
+## ##contig=<ID=GL000216.1,length=172294>
+## ##contig=<ID=GL000215.1,length=172545>
+## ##contig=<ID=GL000205.1,length=174588>
+## ##contig=<ID=GL000219.1,length=179198>
+## ##contig=<ID=GL000224.1,length=179693>
+## ##contig=<ID=GL000223.1,length=180455>
+## ##contig=<ID=GL000195.1,length=182896>
+## ##contig=<ID=GL000212.1,length=186858>
+## ##contig=<ID=GL000222.1,length=186861>
+## ##contig=<ID=GL000200.1,length=187035>
+## ##contig=<ID=GL000193.1,length=189789>
+## ##contig=<ID=GL000194.1,length=191469>
+## ##contig=<ID=GL000225.1,length=211173>
+## ##contig=<ID=GL000192.1,length=547496>
+## ##contig=<ID=NC_007605,length=171823>
+## Oncotator v1.2.4.0 | GENCODE v18 | Flat File Reference hg19 | UniProt_AAxform 2011_09 | ClinVar 12.03.20 | ESP 6500SI-V2 | ORegAnno UCSC Track | dbSNP build 134 | CCLE_By_GP 09292010 | COSMIC v62_291112 | 1000Genome phase1 | UniProt_AA 2011_09 | dbNSFP v2.4 | ESP 6500SI-V2 | COSMIC_FusionGenes v62_291112 | gencode_xref_refseq metadata_v18 | CCLE_By_Gene 09292010 | ACHILLES_Lineage_Results 110303 | CGC full_2012-03-15 | UniProt 2011_09 | HumanDNARepairGenes 20110905 | HGNC Nov2013 | COSMIC_Tissue 291112 | Familial_Cancer_Genes 20110905 | TUMORScape 20100104 | Ensembl ICGC MUCOPA | TCGAScape 110405 | MutSig Published Results 20110905 
+Hugo_Symbol	Entrez_Gene_Id	Center	NCBI_Build	Chromosome	Start_position	End_position	Strand	Variant_Classification	Variant_Type	Reference_Allele	Tumor_Seq_Allele1	Tumor_Seq_Allele2	dbSNP_RS	dbSNP_Val_Status	Tumor_Sample_Barcode	Matched_Norm_Sample_Barcode	Match_Norm_Seq_Allele1	Match_Norm_Seq_Allele2	Tumor_Validation_Allele1	Tumor_Validation_Allele2	Match_Norm_Validation_Allele1	Match_Norm_Validation_Allele2	Verification_Status	Validation_Status	Mutation_Status	Sequencing_Phase	Sequence_Source	Validation_Method	Score	BAM_file	Sequencer	Tumor_Sample_UUID	Matched_Norm_Sample_UUID	Genome_Change	Annotation_Transcript	Transcript_Strand	Transcript_Exon	Transcript_Position	cDNA_Change	Codon_Change	Protein_Change	Other_Transcripts	Refseq_mRNA_Id	Refseq_prot_Id	SwissProt_acc_Id	SwissProt_entry_Id	Description	UniProt_AApos	UniProt_Region	UniProt_Site	UniProt_Natural_Variations	UniProt_Experimental_Info	GO_Biological_Process	GO_Cellular_Component	GO_Molecular_Function	COSMIC_overlapping_mutations	COSMIC_fusion_genes	COSMIC_tissue_types_affected	COSMIC_total_alterations_in_gene	Tumorscape_Amplification_Peaks	Tumorscape_Deletion_Peaks	TCGAscape_Amplification_Peaks	TCGAscape_Deletion_Peaks	DrugBank	ref_context	gc_content	CCLE_ONCOMAP_overlapping_mutations	CCLE_ONCOMAP_total_mutations_in_gene	CGC_Mutation_Type	CGC_Translocation_Partner	CGC_Tumor_Types_Somatic	CGC_Tumor_Types_Germline	CGC_Other_Diseases	DNARepairGenes_Role	FamilialCancerDatabase_Syndromes	MUTSIG_Published_Results	OREGANNO_ID	OREGANNO_Values	1000Genome_AA	1000Genome_AC	1000Genome_AF	1000Genome_AFR_AF	1000Genome_AMR_AF	1000Genome_AN	1000Genome_ASN_AF	1000Genome_AVGPOST	1000Genome_CIEND	1000Genome_CIPOS	1000Genome_END	1000Genome_ERATE	1000Genome_EUR_AF	1000Genome_HOMLEN	1000Genome_HOMSEQ	1000Genome_LDAF	1000Genome_RSQ	1000Genome_SNPSOURCE	1000Genome_SVLEN	1000Genome_SVTYPE	1000Genome_THETA	1000Genome_VT	ACHILLES_Lineage_Results_Top_Genes	BCNoise	CGC_Cancer Germline Mut	CGC_Cancer Molecular Genetics	CGC_Cancer Somatic Mut	CGC_Cancer Syndrome	CGC_Chr	CGC_Chr Band	CGC_GeneID	CGC_Name	CGC_Other Germline Mut	CGC_Tissue Type	COSMIC_n_overlapping_mutations	COSMIC_overlapping_mutation_descriptions	COSMIC_overlapping_primary_sites	ClinVar_ASSEMBLY	ClinVar_HGMD_ID	ClinVar_SYM	ClinVar_TYPE	ClinVar_rs	DP2	DP50	ESP_AA	ESP_AAC	ESP_AA_AC	ESP_AA_AGE	ESP_AA_GTC	ESP_AvgAAsampleReadDepth	ESP_AvgEAsampleReadDepth	ESP_AvgSampleReadDepth	ESP_CA	ESP_CDP	ESP_CG	ESP_CP	ESP_Chromosome	ESP_DBSNP	ESP_DP	ESP_EA_AC	ESP_EA_AGE	ESP_EA_GTC	ESP_EXOME_CHIP	ESP_FG	ESP_GL	ESP_GM	ESP_GS	ESP_GTC	ESP_GTS	ESP_GWAS_PUBMED	ESP_MAF	ESP_PH	ESP_PP	ESP_Position	ESP_TAC	ESP_TotalAAsamplesCovered	ESP_TotalEAsamplesCovered	ESP_TotalSamplesCovered	Ensembl_so_accession	Ensembl_so_term	FDP50	Familial_Cancer_Genes_Reference	Familial_Cancer_Genes_Synonym	HGNC_Ensembl Gene ID	HGNC_HGNC ID	HGNC_RefSeq IDs	HGNC_Status	HGNC_UCSC ID(supplied by UCSC)	HGVS_coding_DNA_change	HGVS_genomic_change	HGVS_protein_change	IC	IHP	NT	ORegAnno_bin	OVERLAP	QSI	QSI_NT	QSI_ref	RC	Repeat	SGT	SUBDP50	SVTYPE	TAR	TIR	TOR	TQSI	TQSI_NT	UniProt_alt_uniprot_accessions	alt_allele_seen	annotation_transcript	build	ccds_id	center	dbNSFP_1000Gp1_AC	dbNSFP_1000Gp1_AF	dbNSFP_1000Gp1_AFR_AC	dbNSFP_1000Gp1_AFR_AF	dbNSFP_1000Gp1_AMR_AC	dbNSFP_1000Gp1_AMR_AF	dbNSFP_1000Gp1_ASN_AC	dbNSFP_1000Gp1_ASN_AF	dbNSFP_1000Gp1_EUR_AC	dbNSFP_1000Gp1_EUR_AF	dbNSFP_Ancestral_allele	dbNSFP_CADD_phred	dbNSFP_CADD_raw	dbNSFP_CADD_raw_rankscore	dbNSFP_ESP6500_AA_AF	dbNSFP_ESP6500_EA_AF	dbNSFP_Ensembl_geneid	dbNSFP_Ensembl_transcriptid	dbNSFP_FATHMM_pred	dbNSFP_FATHMM_rankscore	dbNSFP_FATHMM_score	dbNSFP_GERP++_NR	dbNSFP_GERP++_RS	dbNSFP_GERP++_RS_rankscore	dbNSFP_Interpro_domain	dbNSFP_LRT_Omega	dbNSFP_LRT_converted_rankscore	dbNSFP_LRT_pred	dbNSFP_LRT_score	dbNSFP_LR_pred	dbNSFP_LR_rankscore	dbNSFP_LR_score	dbNSFP_MutationAssessor_pred	dbNSFP_MutationAssessor_rankscore	dbNSFP_MutationAssessor_score	dbNSFP_MutationTaster_converted_rankscore	dbNSFP_MutationTaster_pred	dbNSFP_MutationTaster_score	dbNSFP_Polyphen2_HDIV_pred	dbNSFP_Polyphen2_HDIV_rankscore	dbNSFP_Polyphen2_HDIV_score	dbNSFP_Polyphen2_HVAR_pred	dbNSFP_Polyphen2_HVAR_rankscore	dbNSFP_Polyphen2_HVAR_score	dbNSFP_RadialSVM_pred	dbNSFP_RadialSVM_rankscore	dbNSFP_RadialSVM_score	dbNSFP_Reliability_index	dbNSFP_SIFT_converted_rankscore	dbNSFP_SIFT_pred	dbNSFP_SIFT_score	dbNSFP_SLR_test_statistic	dbNSFP_SiPhy_29way_logOdds	dbNSFP_SiPhy_29way_logOdds_rankscore	dbNSFP_SiPhy_29way_pi	dbNSFP_UniSNP_ids	dbNSFP_Uniprot_aapos	dbNSFP_Uniprot_acc	dbNSFP_Uniprot_id	dbNSFP_aaalt	dbNSFP_aapos	dbNSFP_aapos_FATHMM	dbNSFP_aapos_SIFT	dbNSFP_aaref	dbNSFP_cds_strand	dbNSFP_codonpos	dbNSFP_fold-degenerate	dbNSFP_genename	dbNSFP_hg18_pos(1-coor)	dbNSFP_phastCons100way_vertebrate	dbNSFP_phastCons100way_vertebrate_rankscore	dbNSFP_phastCons46way_placental	dbNSFP_phastCons46way_placental_rankscore	dbNSFP_phastCons46way_primate	dbNSFP_phastCons46way_primate_rankscore	dbNSFP_phyloP100way_vertebrate	dbNSFP_phyloP100way_vertebrate_rankscore	dbNSFP_phyloP46way_placental	dbNSFP_phyloP46way_placental_rankscore	dbNSFP_phyloP46way_primate	dbNSFP_phyloP46way_primate_rankscore	dbNSFP_refcodon	gencode_transcript_name	gencode_transcript_status	gencode_transcript_tags	gencode_transcript_type	gene_id	gene_type	havana_transcript	iHpol	id	individual_barcode	platform	qual	read_depth	sample_name	secondary_variant_classification	somatic	strand	tandem_repeat_unit	tumor_subtype
+LRRC7	57554	broad.mit.edu	37	1	70478624	70478625	+	Intron	INS	-	-	T			AC-P07-Tumor-SM-63B4V	AC-P07-Normal-SM-63B4W								Untested	Somatic	Phase_I	WXS	none			Illumina GAIIx	NA	NA	g.chr1:70478624_70478625insT	ENST00000310961.5	+	14	1453				LRRC7_ENST00000415775.2_Intron|LRRC7_ENST00000035383.5_Intron			Q96NW7	LRRC7_HUMAN	leucine rich repeat containing 7							centrosome|focal adhesion|nucleolus	protein binding			breast(11)|central_nervous_system(3)|cervix(1)|endometrium(9)|haematopoietic_and_lymphoid_tissue(1)|kidney(7)|large_intestine(25)|liver(3)|lung(81)|ovary(9)|pancreas(1)|prostate(2)|skin(2)|stomach(1)|upper_aerodigestive_tract(4)|urinary_tract(2)	162						TTGTGGTCTGATTTTTTTACCT	0.252																																				PASS											0								81	108.81																																			SO:0001627	intron_variant	0.1			ENSG00000033122	HGNC:18531	NM_020794	Approved	uc001dep.3	ENST00000310961.5:c.1036-32->T	Exception_encountered		8	7	ref		False	118	104	PASS	7	PASS	ref->het	0.0		35,35	29,29	19,20	1	1	Q5VXC2|Q5VXC3|Q68D07|Q86VE8|Q8WX20|Q9P2I2	True	ENST00000310961.5	hg19		broad.mit.edu																																																																																			LRRC7-002	KNOWN	basic	protein_coding		protein_coding	OTTHUMT00000131262.2	PASS		AC-P07	illumina	None	81	AC-P07-Normal-SM-63B4W		True	+	T	Primary
+CUX1	1523	broad.mit.edu	37	7	101747723	101747724	+	3'UTR	DEL	TT	TT	-			AC-P07-Tumor-SM-63B4V	AC-P07-Normal-SM-63B4W								Untested	Somatic	Phase_I	WXS	none			Illumina GAIIx	NA	NA	g.chr7:101747723_101747724delTT	ENST00000560541.1	+	0	1135_1136				CUX1_ENST00000437600.4_Frame_Shift_Del_p.F183fs|CUX1_ENST00000556210.1_Frame_Shift_Del_p.F172fs|CUX1_ENST00000550008.2_Frame_Shift_Del_p.F172fs|CUX1_ENST00000549414.2_Frame_Shift_Del_p.F172fs|CUX1_ENST00000547394.2_Frame_Shift_Del_p.F167fs|CUX1_ENST00000546411.2_Frame_Shift_Del_p.F172fs|CUX1_ENST00000292535.7_Frame_Shift_Del_p.F172fs|CUX1_ENST00000292538.4_Frame_Shift_Del_p.F183fs|CUX1_ENST00000393824.3_Frame_Shift_Del_p.F146fs|CUX1_ENST00000360264.3_Frame_Shift_Del_p.F183fs|CUX1_ENST00000425244.2_Frame_Shift_Del_p.F137fs			P39880	CUX1_HUMAN	cut-like homeobox 1						negative regulation of transcription from RNA polymerase II promoter	nucleus	sequence-specific DNA binding|sequence-specific DNA binding transcription factor activity			breast(2)|central_nervous_system(1)|cervix(2)|endometrium(6)|kidney(3)|large_intestine(8)|lung(26)|ovary(7)|pancreas(1)|prostate(6)|skin(2)|stomach(1)|urinary_tract(5)	70						ACAGAATGACTTTGCAGAAAAG	0.416																																				PASS											0								104	96.4																																			SO:0001624	3_prime_UTR_variant	0.61			ENSG00000257923	HGNC:2557	NM_001913	Approved	uc003uyx.4	ENST00000560541.1:c.*1133TT>-	Exception_encountered		1	3	ref		False	88	88	PASS	3	PASS	ref->het	0.0		64,66	24,24	15,15	2	2	Q6NYH4|Q75LE5|Q75MT2|Q75MT3|Q86UJ7|Q9UEV5	True	ENST00000560541.1	hg19		broad.mit.edu																																																																																			CUX1-019	KNOWN	basic|exp_conf	processed_transcript		protein_coding	OTTHUMT00000418419.1	PASS		AC-P07	illumina	None	104	AC-P07-Normal-SM-63B4W		True	+	T	Primary
+RB1	5925	broad.mit.edu	37	13	48985628	48985630	+	Intron	DEL	CTC	CTC	-			AC-P07-Tumor-SM-63B4V	AC-P07-Normal-SM-63B4W								Untested	Somatic	Phase_I	WXS	none			Illumina GAIIx	NA	NA	g.chr13:48985628_48985630delCTC	ENST00000267163.4	+	17	1833				LPAR6_ENST00000378434.4_In_Frame_Del_p.310_311RR>R|LPAR6_ENST00000345941.2_In_Frame_Del_p.310_311RR>R	NM_000321.2	NP_000312.2	P06400	RB_HUMAN	retinoblastoma 1						androgen receptor signaling pathway|cell cycle arrest|chromatin remodeling|G1 phase of mitotic cell cycle|interspecies interaction between organisms|maintenance of mitotic sister chromatid cohesion|mitotic cell cycle G1/S transition checkpoint|myoblast differentiation|negative regulation of cell growth|negative regulation of protein kinase activity|negative regulation of S phase of mitotic cell cycle|negative regulation of sequence-specific DNA binding transcription factor activity|positive regulation of mitotic metaphase/anaphase transition|protein localization to chromosome, centromeric region|Ras protein signal transduction|regulation of centromere complex assembly|regulation of cohesin localization to chromatin|regulation of lipid kinase activity|regulation of transcription involved in G1/S phase of mitotic cell cycle|S phase of mitotic cell cycle|sister chromatid biorientation	chromatin|PML body|Rb-E2F complex|SWI/SNF complex	androgen receptor binding|DNA binding|kinase binding|phosphoprotein binding|sequence-specific DNA binding transcription factor activity|transcription coactivator activity|transcription factor binding|ubiquitin protein ligase binding	p.0?(15)|p.?(4)		NS(3)|adrenal_gland(1)|bone(22)|breast(30)|central_nervous_system(48)|cervix(3)|endometrium(14)|eye(95)|gastrointestinal_tract_(site_indeterminate)(1)|haematopoietic_and_lymphoid_tissue(20)|kidney(3)|large_intestine(10)|liver(3)|lung(153)|oesophagus(1)|ovary(13)|pancreas(5)|pituitary(1)|prostate(14)|salivary_gland(2)|skin(9)|soft_tissue(9)|stomach(4)|upper_aerodigestive_tract(1)|urinary_tract(31)	496		all_cancers(8;6.9e-71)|all_epithelial(8;4.61e-22)|Acute lymphoblastic leukemia(8;1.1e-21)|all_hematologic(8;2.3e-21)|all_lung(13;1.51e-09)|Lung NSC(96;7.03e-07)|Breast(56;1.53e-05)|Prostate(109;0.000493)|Myeloproliferative disorder(33;0.0179)|Hepatocellular(98;0.0207)|all_neural(104;0.0227)|Glioma(44;0.0286)|Lung SC(185;0.0301)		GBM - Glioblastoma multiforme(2;9.98e-18)|LUSC - Lung squamous cell carcinoma(3;0.013)	Insulin Glargine recombinant(DB00047)|Insulin Lyspro recombinant(DB00046)|Insulin recombinant(DB00030)|Insulin, porcine(DB00071)	GAAGTCACTTCTCCTGACAGACC	0.355		6	"""D, Mis, N, F, S"""		"""retinoblastoma, sarcoma, breast, small cell lung"""	"""retinoblastoma, sarcoma, breast, small cell lung"""			Hereditary Retinoblastoma	TCGA GBM(7;6.82e-08)|TSP Lung(12;0.097)|TCGA Ovarian(6;0.080)																										PASS	yes	Rec	yes	Familial retinoblastoma	13	13q14	5925	retinoblastoma gene		"""L, E, M, O"""	19	Whole gene deletion(15)|Unknown(4)	bone(10)|breast(4)|adrenal_gland(1)|eye(1)|soft_tissue(1)|haematopoietic_and_lymphoid_tissue(1)|endometrium(1)						73	78.39																																			SO:0001627	intron_variant	0.3	Familial Cancer Database		ENSG00000139687	HGNC:9884		Approved	uc001vcb.3	ENST00000267163.4:c.1695+30049CTC>-	Exception_encountered		0	3	ref		False	155	155	PASS	1	PASS	ref->het	0.0		47,48	21,21	4,4	1	1	A8K5E3|P78499|Q5VW46|Q8IZL4	True	ENST00000267163.4	hg19	CCDS31973.1	broad.mit.edu																																																																																			RB1-002	KNOWN	basic|exp_conf|CCDS	protein_coding		protein_coding	OTTHUMT00000044884.1	PASS		AC-P07	illumina	None	73	AC-P07-Normal-SM-63B4W		True	+	CTC	Primary
+Unknown	0	broad.mit.edu	37	13	90015215	90015215	+	IGR	DEL	G	G	-			AC-P07-Tumor-SM-63B4V	AC-P07-Normal-SM-63B4W								Untested	Somatic	Phase_I	WXS	none			Illumina GAIIx	NA	NA	g.chr13:90015215delG								LINC00440 (82721 upstream) : RP11-114G1.2 (114646 downstream)																							TGATGAATCTGATCCTGCTGC	0.453																																				PASS											0								55	66.42																																			SO:0001628	intergenic_variant	0.43									Exception_encountered		0	2	ref		False	54	54	PASS	1	PASS	ref->het	0.0		33,33	13,13	9,9	1	1		True		hg19		broad.mit.edu																																																																																							0			PASS		AC-P07	illumina	None	55	AC-P07-Normal-SM-63B4W		True		G	Primary
+NFIX	4784	broad.mit.edu	37	19	13136224	13136225	+	Frame_Shift_Ins	INS	-	-	A			AC-P07-Tumor-SM-63B4V	AC-P07-Normal-SM-63B4W								Untested	Somatic	Phase_I	WXS	none			Illumina GAIIx	NA	NA	g.chr19:13136224_13136225insA	ENST00000360105.4	+	2	491_492	c.426_427insA	c.(427-429)atcfs	p.I143fs	NFIX_ENST00000587760.1_Frame_Shift_Ins_p.I132fs|NFIX_ENST00000592199.1_Frame_Shift_Ins_p.I140fs|NFIX_ENST00000358552.3_Frame_Shift_Ins_p.I139fs|NFIX_ENST00000585575.1_Frame_Shift_Ins_p.I132fs|NFIX_ENST00000397661.2_Frame_Shift_Ins_p.I140fs|NFIX_ENST00000588228.1_Frame_Shift_Ins_p.I93fs|NFIX_ENST00000587260.1_Frame_Shift_Ins_p.I139fs			Q14938	NFIX_HUMAN	nuclear factor I/X (CCAAT-binding transcription factor)	140					DNA replication|negative regulation of transcription from RNA polymerase II promoter|positive regulation of transcription from RNA polymerase II promoter	nucleus	DNA binding|sequence-specific enhancer binding RNA polymerase II transcription factor activity			NS(1)|breast(1)|endometrium(3)|kidney(2)|large_intestine(1)|lung(1)|skin(1)|urinary_tract(1)	11			OV - Ovarian serous cystadenocarcinoma(19;8.2e-22)			TGTTTAAGGGGATCCCCCTGGA	0.589																																				PASS											0								87	81.23																																			SO:0001589	frameshift_variant	0.73				HGNC:7788	NM_002501	Approved	uc010xmx.2	ENST00000360105.4:c.427dupA	Exception_encountered	unknown_prot_seq_id:p.Ile143fs	2	4	ref		False	65	65	PASS	1	PASS	ref->het	0.0		45,47	22,22	19,18	2	2	O60413|Q0VG09|Q12859|Q13050|Q13052|Q5U094|Q9UPH1|Q9Y6R8	True	ENST00000360105.4	hg19		broad.mit.edu																																																																																			NFIX-003	NOVEL	basic|exp_conf	protein_coding		protein_coding	OTTHUMT00000452768.1	PASS		AC-P07	illumina	None	87	AC-P07-Normal-SM-63B4W		True	+	A	Primary

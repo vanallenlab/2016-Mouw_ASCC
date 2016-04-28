@@ -1,0 +1,3 @@
+firehose_pipeline = Gistic2_Analysis_ReCapSeg
+entity_name = combined-extension_exceptional
+author = schum

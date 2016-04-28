@@ -1,0 +1,16 @@
+Memory	4
+Segmentation File	/fh/subscription-VanAllen_Lab/tsvCat/Discovery_FFPE_Agilent/23228399/Discovery_FFPE_Agilent.aggregated_case_sample.seg
+Markers File	/xchip/gistic/variables/whole_exome_agilent_1.1_refseq_plus_3_boosters.Homo_sapiens_assembly19.targets.markers.txt
+Reference Genome	/xchip/gistic/variables/hg19/hg19_with_miR_20120227.mat
+CNV Files	/xchip/gistic/CNV/blood_normals/CNV.hg19_111204/CNV.hg19.bypos.111213.txt
+Amplification Threshold	0.3
+Deletion Threshold	0.3
+Cap Values	2
+Broad Length Cutoff	0.5
+Remove X-Chromosome	1
+Confidence Level	0.99
+Join Segment Size	10
+Arm Level Peel Off	1
+Maximum Sample Segments	10000
+Do Gene GISTIC	1
+Gene Collapse Method	mean
