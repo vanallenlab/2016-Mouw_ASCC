@@ -79,7 +79,8 @@ for i in range(len(colors_fig2)):
 
 ## ===================================================
 # Figure 3: Mutational and Neoantigen Burden. Tableau 
-colors_fig3 = [(0, 107, 164), (255, 128, 14)] 
+#colors_fig3 = [(0, 107, 164), (255, 128, 14), (216, 37, 38), (48, 147, 67)] 
+colors_fig3 = [(31, 119, 180), (255, 127, 14), (255, 193, 86), (44, 160, 44)]
 for i in range(len(colors_fig3)):
     r, g, b = colors_fig3[i]
     colors_fig3[i] = (r / 256., g / 256., b / 256.)
