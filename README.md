@@ -15,4 +15,6 @@ After forking or downloading the repository, update these two files by:
 bash ASCC-get_db.sh
 ```
 
-[Please click here to contact us](https://github.com/vanallenlab/2016-Mouw_ASCC/issues) if you have any questions, comments, or concerns about the paper or this repository. 
+[Please click here to contact us](https://github.com/vanallenlab/2016-Mouw_ASCC/issues) if you have any questions, comments, or concerns about this repository. 
+
+Please contact a corresponding author for any questions, comments, or concerns regarding the paper in general.
