@@ -1,11 +1,18 @@
-# Usage
-Genomic Evolution After Chemoradiotherapy in Anal Squamous Cell Carcinoma
-
-Due to file size constraints, we were unable to upload the proper version of "cosmic_v75.txt" and "exac_GATK.txt" (located under storage/reference/) to this repository. Please run ASCC-get_db.sh to download these two files off of dropbox.
+# Genomic Evolution After Chemoradiotherapy in Anal Squamous Cell Carcinoma
+## Introduction
+This repository contains code generated, and corresponding raw data, for 2016 Mouw et al, Genomic Evolution After Chemoradiotherapy in Anal Squamous Cell Carcinoma. This paper is available (insert when available :D) 
 
 All figures and statistics created for the paper are shown in ASCC-ipython_master.ipynb
 
-After forking or downloading the repository, update these two files by:
-1. bash ASCC-get_db.sh
+## Dependencies 
+Python 2.7 was primarily used for all data manipulation, calculations, and figure generation. The best way to acquire all packages used may be to [download Anaconda](https://www.continuum.io/downloads). Specific python packages used are commented at the top of ASCC-ipython_master.ipynb
 
-Feel free to contact us if you have any questions, comments, or concerns about the paper or this repository. 
+## Usage 
+Due to file size constraints, we were unable to upload the proper version of "cosmic_v75.txt" and "exac_GATK.txt" (located under storage/reference/) to this repository. Please run ASCC-get_db.sh to download these two files off of dropbox.
+
+After forking or downloading the repository, update these two files by:
+```bash
+bash ASCC-get_db.sh
+```
+
+[Please click here to contact us](https://github.com/vanallenlab/2016-Mouw_ASCC/issues) if you have any questions, comments, or concerns about the paper or this repository. 
