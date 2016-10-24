@@ -26,6 +26,7 @@ df_exac = pd.read_csv(input_exac, sep = '\t', low_memory = False)
 print '...ExAC imported.'
 
 # And now import our data
+#allFiles = glob.glob('../../storage/mafs/extension_snv/*.pass.maf')
 allFiles = glob.glob('../../storage/mafs/pilot_snv_unmatched/*.pass.maf')
 df_unmatched = pd.DataFrame()
 list_ = []
@@ -36,19 +37,27 @@ for file_ in allFiles:
         list_.append(df_)
 df_unmatched = pd.concat(list_, ignore_index = True)
 
+print 'Total variants:', len(df_unmatched)
+
 # Subset for our genes of interest and variant classifications
 print '...subsetting to gene list and to variants of interest.'
 input_genes = '../../storage/reference/ASCC_genes.txt'
 curated_genes = pd.read_csv(input_genes, sep = '\t')
 df_unmatched = df_unmatched[df_unmatched['Hugo_Symbol'].isin(curated_genes['gene'])]
 
+print 'After gene filter:', len(df_unmatched)
+
 variants = ['Missense_Mutation', 'Nonsense_Mutation', 'Splice_Site']
 df_variants = pd.DataFrame(variants, columns = ['Variant_Classification'])
 df_unmatched = df_unmatched[df_unmatched['Variant_Classification'].isin(df_variants['Variant_Classification'])]
 
+print 'After variant type filter:', len(df_unmatched)
+
 # We require 14 reads covering a site for declaring a site to be adequately covered for mutation calling
 df_unmatched['read_depth'] = df_unmatched['t_alt_count'] + df_unmatched['t_ref_count']
 df_unmatched = df_unmatched[df_unmatched['read_depth'] >= 14]
+
+print 'After read filter:', len(df_unmatched)
 
 df_unmatched.index = range(0, len(df_unmatched)) # Reset the index of the dataframe
 
@@ -111,7 +120,7 @@ print 'Readding variants that appear in Cosmic at least 3 times...'
 df_recover = df_exac_failed[df_exac_failed['Cosmic(v75) Counts'] >= 3]
 
 # and concatenate them together with the mutations that passed
-df_filter_pass = pd.concat([df_exac_passed, df_recover], ignore_index = True)
+df_filter_pass = pd.concat([df_exac_passed, df_recover])
 df_filter_fail = df_unmatched.drop(df_filter_pass.index)
 
 # And Export!

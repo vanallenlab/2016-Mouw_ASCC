@@ -44,6 +44,17 @@ cmapDistance = colors.ListedColormap(colors_fig1_distance)
 boundsDistance = [0,1,2,3]
 normDistance = colors.BoundaryNorm(boundsDistance, cmapDistance.N)  
 
+# Figure 1: Clinical annotation, recurrence time, Color Brewer 2 
+colors_fig1_time = [(173,221,142),(49,163,84),(255,255,255)]
+#colors_fig1_time = [(253,187,132),(227,74,51),(255,255,255)]
+for i in range(len(colors_fig1_time)):
+    r, g, b = colors_fig1_time[i]
+    colors_fig1_time[i] = (r / 256., g / 256., b / 256.)
+
+cmapTime = colors.ListedColormap(colors_fig1_time)
+boundsTime = [0,1,2,3]
+normTime = colors.BoundaryNorm(boundsTime, cmapTime.N)  
+
 # Figure 1: Clinical annotation, HPV status. Color brewer 2
 colors_tableauHPV = [(255,221,113),(219,161,58), (199,199,199), (255, 255, 255)]
 for i in range(len(colors_tableauHPV)):

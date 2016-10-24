@@ -119,7 +119,7 @@ print 'Readding variants that appear in Cosmic at least 3 times...'
 df_recover = df_exac_failed[df_exac_failed['Cosmic(v75) Counts'] >= 3]
 
 # and concatenate them together with the mutations that passed
-df_filter_pass = pd.concat([df_exac_passed, df_recover], ignore_index = True)
+df_filter_pass = pd.concat([df_exac_passed, df_recover])
 df_filter_fail = df_unmatched.drop(df_filter_pass.index)
 
 # And Export!

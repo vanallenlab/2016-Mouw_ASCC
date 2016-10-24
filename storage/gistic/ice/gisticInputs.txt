@@ -1,5 +1,5 @@
 Memory	4
-Segmentation File	/fh/subscription-VanAllen_Lab/tsvCat/combined-extension_exceptional/21186708/combined-extension_exceptional.aggregated_case_sample.seg
+Segmentation File	/fh/subscription-VanAllen_Lab/tsvCat/combined-extension_exceptional/27022262/combined-extension_exceptional.aggregated_case_sample.seg
 Markers File	/xchip/gistic/variables/WES_CRSP_ICE_hg19_wex_illumina_v1_naX_Y_MT1.markers.txt
 Reference Genome	/xchip/gistic/variables/hg19/hg19_with_miR_20120227.mat
 CNV Files	/xchip/gistic/CNV/blood_normals/CNV.hg19_111204/CNV.hg19.bypos.111213.txt

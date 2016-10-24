@@ -118,6 +118,27 @@ def format_loc(info_cohort, input_dataframe):
     return(output_dataframe)
 
 ## ============================================================================================
+# A function to populate a dataframe with the recurrence location
+# Used for figure 1, clinical annotation 2: recurrent samples - recurrent timing
+
+def format_time(info_cohort, input_dataframe):
+    output_dataframe = pd.DataFrame([], columns = input_dataframe.columns.tolist(), index = ['Time to Recurrence'])
+
+    for sample in output_dataframe.columns.tolist():
+        if (isinstance(sample, str)):
+            index = info_cohort[info_cohort.ix[:, 'Tumor Sample ID'] == sample].index.tolist()[0]
+            loc = info_cohort.ix[index, 'Time to Recurrence']
+            if loc == '> 1 year':
+                num_loc = 1
+            else:
+                num_loc = 0
+            output_dataframe.ix['Time to Recurrence', sample] = num_loc
+        else:
+            output_dataframe.ix['Time to Recurrence', sample] = 10
+
+    return(output_dataframe)
+
+## ============================================================================================
 # A function used to populate a dataframe with the hpv status
 # Used for supplementary figure 4, clinical annotation 1: primary samples - cohort status
 
