@@ -1,6 +1,6 @@
 # Genomic Evolution After Chemoradiotherapy in Anal Squamous Cell Carcinoma
 ## Introduction
-This repository contains code generated, and corresponding raw data, for 2016 Mouw et al, Genomic Evolution After Chemoradiotherapy in Anal Squamous Cell Carcinoma. This paper is available (http://clincancerres.aacrjournals.org/content/early/2016/11/16/1078-0432.CCR-16-2017) 
+This repository contains code generated, and corresponding raw data, for 2016 Mouw et al, Genomic Evolution After Chemoradiotherapy in Anal Squamous Cell Carcinoma. This paper is available (http://clincancerres.aacrjournals.org/content/early/2017/03/14/1078-0432.CCR-16-2017.full-text.pdf) 
 
 All figures and statistics created for the paper are shown in ASCC-ipython_master.ipynb
 
